@@ -1,0 +1,108 @@
+{
+  "type": "aside",
+  "name": "Overlay",
+  "sections": {
+    "cart-drawer": {
+      "type": "cart-drawer",
+      "blocks": {
+        "cart-message": {
+          "type": "cart-message",
+          "settings": {
+            "cart_custom_message_text": "<p>Use coupon code <strong>WELCOME10<\/strong> for 10% off your first order.<\/p>",
+            "cart_custom_message_color": "",
+            "pin_to_bottom": false
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "title": "Cart"
+          }
+        },
+        "free-shipping": {
+          "type": "free-shipping",
+          "settings": {
+            "message": "Estas a ||amount|| del envío gratuito.",
+            "free_shipping_gradient": "",
+            "pin_to_bottom": false
+          }
+        },
+        "products": {
+          "type": "products",
+          "settings": {
+            "pin_to_bottom": false
+          }
+        },
+        "upsell-products": {
+          "type": "upsell-products",
+          "settings": {
+            "upsell_auto_open": true,
+            "pin_to_bottom": false
+          }
+        },
+        "order-note": {
+          "type": "order-note",
+          "disabled": true,
+          "settings": {
+            "pin_to_bottom": false
+          }
+        },
+        "gift-note": {
+          "type": "gift-note",
+          "settings": {
+            "pin_to_bottom": false
+          }
+        },
+        "checkout-buttons": {
+          "type": "checkout-buttons",
+          "settings": {
+            "enable_additional_buttons": false,
+            "show_view_cart_button": false,
+            "pin_to_bottom": true
+          }
+        },
+        "special_products_jA3qQF": {
+          "type": "specialProducts",
+          "settings": {
+            "product_list": [
+              "caja-estandard-free",
+              "caja-regalo-5"
+            ],
+            "layout_mobile": "slider"
+          }
+        },
+        "special_collection_UBgaqr": {
+          "type": "special_collection",
+          "settings": {
+            "featured_collection": "muestras"
+          }
+        }
+      },
+      "block_order": [
+        "cart-message",
+        "title",
+        "free-shipping",
+        "products",
+        "upsell-products",
+        "order-note",
+        "gift-note",
+        "checkout-buttons",
+        "special_products_jA3qQF",
+        "special_collection_UBgaqr"
+      ],
+      "settings": {}
+    },
+    "cookie": {
+      "type": "overlay-cookie",
+      "disabled": true,
+      "settings": {
+        "show_cookies_popup": true,
+        "position": "popup-cookies--right"
+      }
+    }
+  },
+  "order": [
+    "cart-drawer",
+    "cookie"
+  ]
+}

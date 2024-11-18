@@ -1,0 +1,339 @@
+{
+  "sections": {
+    "section_hero_gTF8Pf": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_KXxFMc": {
+          "type": "heading",
+          "settings": {
+            "title": "{{ page.title }}",
+            "heading_size": 8,
+            "text_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KXxFMc"
+      ],
+      "settings": {
+        "height": "screen-height-one-third",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/banner_preguntas_frecuentes.jpg",
+        "link": "",
+        "mobile_height": "screen-height-one-third--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_breadcrumbs": false,
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": false,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 5,
+        "align_text": "text-center",
+        "width": "wrapper",
+        "bg_color": "rgba(0,0,0,0)",
+        "color": "",
+        "padding_top": 64,
+        "padding_bottom": 32
+      }
+    },
+    "section_text_row_7JxVJf": {
+      "type": "section-text-row",
+      "blocks": {
+        "icon_RfLENE": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-shield",
+            "icon_size": 80,
+            "icon_color": "#545454",
+            "image": "shopify:\/\/shop_images\/shipped_411763gris.png",
+            "title": "",
+            "text_tag": "h2",
+            "heading_size": 2,
+            "text": "<p><a href=\"\/pages\/envio\" title=\"Envío\">Envío<\/a><\/p>",
+            "text_size": 3
+          }
+        },
+        "icon_GCWHFf": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-trophy",
+            "icon_size": 70,
+            "icon_color": "#545454",
+            "image": "shopify:\/\/shop_images\/package_5733341gris.png",
+            "title": "",
+            "text_tag": "h2",
+            "heading_size": 2,
+            "text": "<p><a href=\"\/pages\/devoluciones-y-reembolsos\" title=\"Devoluciones y reembolsos\">Devoluciones y reembolso<\/a><\/p>",
+            "text_size": 3
+          }
+        },
+        "icon_ACTXFp": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-chat",
+            "icon_size": 75,
+            "icon_color": "#545454",
+            "image": "shopify:\/\/shop_images\/toiletries_4303259gris.png",
+            "title": "",
+            "text_tag": "h2",
+            "heading_size": 2,
+            "text": "<p><a href=\"\/pages\/productos\" title=\"Productos\">Productos<\/a><\/p>",
+            "text_size": 3
+          }
+        },
+        "icon_drLAnJ": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-award",
+            "icon_size": 75,
+            "icon_color": "#545454",
+            "image": "shopify:\/\/shop_images\/spray_13974779gris.png",
+            "title": "",
+            "text_tag": "h2",
+            "heading_size": 2,
+            "text": "<p><a href=\"\/pages\/muestras\" title=\"Muestras\">Muestras<\/a><\/p>",
+            "text_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "icon_RfLENE",
+        "icon_GCWHFf",
+        "icon_ACTXFp",
+        "icon_drLAnJ"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "layout": "grid",
+        "grid": 4,
+        "align_heading": "text-center",
+        "align_text": "text-center",
+        "icon_alignment": "icon--top",
+        "align_columns": "flex-align-center",
+        "width": "wrapper",
+        "bg_color": "rgba(0,0,0,0)",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 64,
+        "layout_mobile": "slider"
+      }
+    },
+    "section_double_slider_ibfKbq": {
+      "type": "section-double-slider",
+      "blocks": {
+        "text_slide_Th4fPG": {
+          "type": "text-slide",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 3,
+            "title": "¿Dónde puedo encontrar información y asesoramiento sobre los productos?",
+            "heading_size": 4,
+            "text": "<p><\/p><p>Para información adicional y asesoramiento personalizado sobre nuestros productos, contacta a nuestro equipo de atención al cliente en customerservice@cereriamolla.com. <\/p><p><\/p><p><\/p><p><\/p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "btn--small",
+            "button_style": "btn--text",
+            "show_arrow": false,
+            "image": "shopify:\/\/shop_images\/santal-tonka-2.jpg"
+          }
+        },
+        "text_slide_hGticN": {
+          "type": "text-slide",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 3,
+            "title": "¿Cómo se elaboran nuestras velas aromáticas?",
+            "heading_size": 4,
+            "text": "<p><\/p><p>Nuestras velas, fabricadas artesanalmente con cera de soja vegetal eco-friendly y mechas de algodón 100%, garantizan la más alta calidad y una combustión uniforme. Añadimos fragancias cuidadosamente seleccionadas para una experiencia sensorial única, y usamos envases reciclables certificados por el sello FSC, asegurando nuestro compromiso con el medio ambiente.<\/p><p><\/p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "btn--small",
+            "button_style": "btn--text",
+            "show_arrow": false,
+            "image": "shopify:\/\/shop_images\/grapefruit_bay_2.jpg"
+          }
+        },
+        "text_slide_PRMpWb": {
+          "type": "text-slide",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 3,
+            "title": "Mi vela no arde uniformemente. ¿Qué debo hacer?",
+            "heading_size": 4,
+            "text": "<p><\/p><p>Para una quema uniforme, deja tu vela encendida por 2 a 3 horas en su primer uso para derretir completamente la capa superior de cera y evitar túneles. Colócala en un lugar sin corrientes de aire para mantener una llama estable.<\/p><p><\/p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "btn--small",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "text_slide_Th4fPG",
+        "text_slide_hGticN",
+        "text_slide_PRMpWb"
+      ],
+      "settings": {
+        "layout": "",
+        "headingsecction": "Otros temas relacionados",
+        "is_slider": false,
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/verbena_di_sicilia_2.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "color": "#1d1d1d",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_rich_text_jLxPia": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_zBwdqz": {
+          "type": "heading",
+          "settings": {
+            "title": "¿Necesitas ayuda?",
+            "text_size": 4,
+            "text_tag": "h2",
+            "padding_bottom": 16
+          }
+        },
+        "text_7XLRDU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ponte en contacto con nuestro equipo de Atención al cliente a través de uno de los siguientes canales.<\/p><p>Disponible de lunes a viernes de 10:00h a 14:00h y de 15:00h a 17:00h (excepto días festivos).<\/p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 6
+          }
+        },
+        "buttons_kdcDBg": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "CONTACTO",
+            "button_url": "shopify:\/\/pages\/contact",
+            "button_type": "btn--primary",
+            "button_size": "btn--small",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 8
+          }
+        }
+      },
+      "block_order": [
+        "heading_zBwdqz",
+        "text_7XLRDU",
+        "buttons_kdcDBg"
+      ],
+      "settings": {
+        "enable_accordion": false,
+        "width": "wrapper--narrow",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "#1d1d1d",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "icons": {
+      "type": "section-text-row",
+      "blocks": {
+        "icon-0": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-shield",
+            "icon_size": 20,
+            "icon_color": "#545454",
+            "title": "Secure transactions",
+            "text_tag": "h2",
+            "heading_size": 4,
+            "text": "<p>Transactions are handled with bank-grade security.<\/p>",
+            "text_size": 3
+          }
+        },
+        "icon-1": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-recycle",
+            "icon_size": 20,
+            "icon_color": "#545454",
+            "title": "Simple checkout",
+            "text_tag": "h2",
+            "heading_size": 4,
+            "text": "<p>Our secure checkout is quick and easy to use.<\/p>",
+            "text_size": 3
+          }
+        },
+        "icon-2": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-chat",
+            "icon_size": 20,
+            "icon_color": "#545454",
+            "title": "Get in touch",
+            "text_tag": "h2",
+            "heading_size": 4,
+            "text": "<p>Have questions? Get in touch with us at any time.<\/p>",
+            "text_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "icon-0",
+        "icon-1",
+        "icon-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "layout": "grid",
+        "grid": 3,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "icon_alignment": "icon--top",
+        "align_columns": "flex-align-top",
+        "width": "wrapper--full-padded",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "layout_mobile": "slider"
+      }
+    }
+  },
+  "order": [
+    "section_hero_gTF8Pf",
+    "main",
+    "section_text_row_7JxVJf",
+    "section_double_slider_ibfKbq",
+    "section_rich_text_jLxPia",
+    "icons"
+  ]
+}

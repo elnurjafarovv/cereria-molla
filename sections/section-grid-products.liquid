@@ -1,0 +1,153 @@
+{%- liquid
+  assign animation_anchor = '#ProductsImage--' | append: section.id
+  assign wrapper_width = section.settings.width
+  assign bg_color = section.settings.bg_color
+-%}
+
+{%- capture style -%}
+  --PT: {{ section.settings.padding_top }}px;
+  --PB: {{ section.settings.padding_bottom }}px;
+
+  {%- unless bg_color == 'rgba(0,0,0,0)' or bg_color == blank -%}
+    --bg: {{ bg_color }};
+    background-color: var(--bg);
+  {%- endunless -%}
+{%- endcapture -%}
+
+<section id="ProductsImage--{{ section.id }}"
+  data-section-id="{{ section.id }}"
+  data-section-type="products-image"
+  class="section-padding customGridProducts"
+  style="{{ style }}"
+>
+  {%- if section.blocks.size > 0 -%}
+    <div class="brick__section{% if section.settings.reverse_blocks %} brick__section--reversed-mobile{% endif %} {{ wrapper_width }}">
+      {%- liquid
+        for block in section.blocks
+          case block.type
+            when 'products'
+              render 'brick-products', block: block, animation_anchor: animation_anchor
+          endcase
+        endfor
+      -%}
+    </div>
+  {%- else -%}
+    {%- render 'no-blocks' -%}
+  {%- endif -%}
+</section>
+
+{% schema %}
+{
+  "name": "Grid products",
+  "settings": [
+    {
+      "type": "select",
+      "id": "width",
+      "label": "Width",
+      "default": "wrapper--full-padded",
+      "options": [
+        {"value": "wrapper--full", "label": "Full width"},
+        {"value": "wrapper--full-padded", "label": "Full width padded"},
+        {"value": "wrapper", "label": "Normal"}
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Mobile"
+    },
+    {
+      "type": "checkbox",
+      "id": "reverse_blocks",
+      "label": "Reverse block placement",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background"
+    },
+    {
+      "type": "header",
+      "content": "Section padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 32
+    }
+  ],
+  "blocks": [
+    {
+      "type": "products",
+      "name": "Products",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "product_list",
+          "id": "product_list",
+          "label": "Product list",
+          "limit": 4,
+          "info": "Choose up to 4 products"
+        },
+        {
+          "type": "header",
+          "content": "Mobile"
+        },
+        {
+          "type": "select",
+          "id": "layout_mobile",
+          "label": "Layout",
+          "options": [
+            {
+              "value": "1",
+              "label": "1 item per row"
+            },
+            {
+              "value": "2",
+              "label": "2 items per row"
+            },
+            {
+              "value": "slider",
+              "label": "Slider"
+            }
+          ],
+          "default": "slider"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Grid products",
+      "category": "Image",
+      "blocks": [
+        {
+          "type": "products"
+        }
+      ]
+    }
+  ],
+  "disabled_on": {
+    "groups": ["header", "aside", "custom.pre_footer", "footer"]
+  }
+}
+{% endschema %}

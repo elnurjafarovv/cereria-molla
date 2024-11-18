@@ -1,0 +1,33 @@
+<!-- /snippets/product-collections-list.liquid -->
+{%- if product.collections -%}
+  {%- assign collection_count = product.collections.size -%}
+  {%- liquid
+    assign limit = limit | default: 4
+    assign column_count = limit
+  
+    if limit > 4
+      assign column_count = '4'
+    endif
+  -%}
+  {%- if collection_count > 0 -%}
+    <div class="grid-outer"  style="--column-count:{{ column_count }}">
+      <grid-slider align-arrows>
+        <div class="grid grid--slider grid--mobile-slider{% if column_count <= 4 %} grid--slider-disabled{% endif %}"
+          data-grid-slider
+          id="product-related-collection">
+          {%- liquid
+            for collection in product.collections
+              assign animation_delay = forloop.index0 | times: 1
+              render 'collection-grid-item-list', collection: collection, animation_delay: animation_delay, animation_anchor: 'product-related-collection', index: forloop.index 
+              if forloop.index == 4
+                break
+              endif
+            endfor
+          -%}
+        </div>
+      </grid-slider>
+    </div>
+  {%- endif -%}
+{%- else -%}
+  <div class="related__placeholder"></div>
+{%- endif -%}

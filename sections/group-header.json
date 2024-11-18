@@ -1,0 +1,391 @@
+{
+  "type": "header",
+  "name": "Header",
+  "sections": {
+    "section_custom_code_iUB7pY": {
+      "type": "section-custom-code",
+      "settings": {
+        "code": "<!-- Begin eTrusted bootstrap tag -->\n<script src=\"https:\/\/integrations.etrusted.com\/applications\/widget.js\/v2\" defer async><\/script>\n<!-- End eTrusted bootstrap tag -->",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "announcement": {
+      "type": "announcement",
+      "blocks": {
+        "countdown_WMDknx": {
+          "type": "countdown",
+          "settings": {
+            "end_date": "2024-12-31",
+            "end_time": "11:59",
+            "period": "am",
+            "end_message": "<p>Offer has expired<\/p>",
+            "hide_on_complete": true,
+            "text": "<p><strong>20% de descuento<\/strong> En mikados y jabones, hasta el 15\/1\/2024<\/p>",
+            "target_device_enabled": false,
+            "target_device": "desktop"
+          }
+        }
+      },
+      "block_order": [
+        "countdown_WMDknx"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".announcement__bar-holder {background: rgb(74, 74, 75); background: linear-gradient( 270deg, rgba(74, 74, 75, 1) 0%, rgba(28, 28, 30, 1) 100% );}"
+      ],
+      "settings": {
+        "show_border": false,
+        "layout": "nomove",
+        "slider_speed": 7,
+        "text_alignment": "center",
+        "show_arrows": true,
+        "marquee_speed": 50,
+        "message_spacing": 10,
+        "text_size": 2,
+        "bg_color": "#ffffff",
+        "color": "#e3c592"
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "toolbar": {
+          "type": "toolbar",
+          "disabled": true,
+          "settings": {
+            "show_toolbar_animated_toolbar": true,
+            "text": "<p> <\/p>",
+            "menu": "topheader",
+            "show_border": false,
+            "border_opacity": 0,
+            "show_social_links": false,
+            "show_gift_card": false,
+            "show_locale_selector": true,
+            "show_country_selector": true,
+            "show_country_name": true,
+            "show_country_flag": true,
+            "bg_color": "#ffffff",
+            "color": "#ffffff"
+          }
+        },
+        "image_WBnKyP": {
+          "type": "image",
+          "settings": {
+            "position": "1",
+            "image": "shopify:\/\/shop_images\/banner_velas_2.png",
+            "aspect_ratio": 0.5,
+            "wide_image": true,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "link_text": "",
+            "link": "",
+            "text_color": ""
+          }
+        },
+        "image_PimJqD": {
+          "type": "image",
+          "settings": {
+            "position": "1",
+            "image": "shopify:\/\/shop_images\/CERERIA_MOLLA_RRSS_SESION_AGOSTO_06.jpg",
+            "aspect_ratio": 0.5,
+            "wide_image": true,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "link_text": "",
+            "link": "",
+            "text_color": ""
+          }
+        },
+        "image_zin8Bi": {
+          "type": "image",
+          "settings": {
+            "position": "2",
+            "image": "shopify:\/\/shop_images\/ambientadores_2.png",
+            "aspect_ratio": 0.5,
+            "wide_image": true,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "link_text": "",
+            "link": "",
+            "text_color": ""
+          }
+        },
+        "image_UCgQMF": {
+          "type": "image",
+          "settings": {
+            "position": "2",
+            "image": "shopify:\/\/shop_images\/banner_spray_textil_1.jpg",
+            "aspect_ratio": 0.5,
+            "wide_image": true,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "link_text": "",
+            "link": "",
+            "text_color": ""
+          }
+        },
+        "image_YmbMmh": {
+          "type": "image",
+          "settings": {
+            "position": "3",
+            "image": "shopify:\/\/shop_images\/banner_perfume_100_1.jpg",
+            "aspect_ratio": 0.5,
+            "wide_image": true,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "link_text": "",
+            "link": "",
+            "text_color": ""
+          }
+        },
+        "image_qR9RYM": {
+          "type": "image",
+          "settings": {
+            "position": "3",
+            "image": "shopify:\/\/shop_images\/Captura_de_pantalla_2024-06-25_090406_39551370-a871-4266-a7ee-eb45b7e3a57c.png",
+            "aspect_ratio": 0.5,
+            "wide_image": true,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "link_text": "",
+            "link": "",
+            "text_color": ""
+          }
+        },
+        "image_qYfLCb": {
+          "type": "image",
+          "settings": {
+            "position": "4",
+            "image": "shopify:\/\/shop_images\/banner_set_3.jpg",
+            "aspect_ratio": 0.5,
+            "wide_image": true,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "link_text": "",
+            "link": "",
+            "text_color": ""
+          }
+        },
+        "image_xMw9Nc": {
+          "type": "image",
+          "settings": {
+            "position": "4",
+            "image": "shopify:\/\/shop_images\/banner_set_4.jpg",
+            "aspect_ratio": 0.5,
+            "wide_image": true,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "link_text": "",
+            "link": "",
+            "text_color": ""
+          }
+        },
+        "image_C9c9gt": {
+          "type": "image",
+          "settings": {
+            "position": "5",
+            "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_16.jpg",
+            "aspect_ratio": 0.5,
+            "wide_image": true,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "link_text": "",
+            "link": "",
+            "text_color": ""
+          }
+        },
+        "image_Naykq9": {
+          "type": "image",
+          "settings": {
+            "position": "6",
+            "image": "shopify:\/\/shop_images\/Captura_de_pantalla_2024-06-25_085959.png",
+            "aspect_ratio": 0.5,
+            "wide_image": true,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "link_text": "",
+            "link": "",
+            "text_color": ""
+          }
+        },
+        "image_YGMPfd": {
+          "type": "image",
+          "settings": {
+            "position": "6",
+            "image": "shopify:\/\/shop_images\/Captura_de_pantalla_2024-06-25_085940.png",
+            "aspect_ratio": 0.5,
+            "wide_image": true,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "link_text": "",
+            "link": "",
+            "text_color": ""
+          }
+        },
+        "image_WHLhpQ": {
+          "type": "image",
+          "settings": {
+            "position": "7",
+            "image": "shopify:\/\/shop_images\/tiendas_1_0d3d77e6-9000-460f-a94b-2094a3990250.jpg",
+            "aspect_ratio": 0.5,
+            "wide_image": true,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "link_text": "",
+            "link": "",
+            "text_color": ""
+          }
+        },
+        "image_6kTQpC": {
+          "type": "image",
+          "settings": {
+            "position": "7",
+            "image": "shopify:\/\/shop_images\/tiendas_2.jpg",
+            "aspect_ratio": 0.5,
+            "wide_image": true,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "link_text": "",
+            "link": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "toolbar",
+        "image_WBnKyP",
+        "image_PimJqD",
+        "image_zin8Bi",
+        "image_UCgQMF",
+        "image_YmbMmh",
+        "image_qR9RYM",
+        "image_qYfLCb",
+        "image_xMw9Nc",
+        "image_C9c9gt",
+        "image_Naykq9",
+        "image_YGMPfd",
+        "image_WHLhpQ",
+        "image_6kTQpC"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 480px) {.header__desktop {position: static; position: relative; bottom: 4px; }}"
+      ],
+      "settings": {
+        "header_sticky": true,
+        "header_style": "logo_above",
+        "show_separator_line": true,
+        "separator_opacity": 100,
+        "show_icons": true,
+        "icon_as_circle": false,
+        "cart_icon_family": "bag",
+        "logo": "shopify:\/\/shop_images\/Diseno_sin_titulo_27.jpg",
+        "logo_max_limit": 175,
+        "logo_max_limit_mobile": 250,
+        "main_menu_linklist": "menu-principal",
+        "mobile_menu_linklist": "menu-principal-mobil",
+        "enable_search": true,
+        "show_social_icons": false,
+        "show_locale_selector": true,
+        "show_country_selector": false,
+        "show_country_name": false,
+        "show_country_flag": false,
+        "highlight_item": "Sale",
+        "highlight_item_color": "#d02e2e",
+        "transparent_home": false,
+        "transparent_product_page": false,
+        "transparent_collection": false,
+        "transparent_article": false,
+        "transparent_page": false,
+        "transparent_logo": "shopify:\/\/shop_images\/logo.svg",
+        "secondary_menu_linklist": "",
+        "tertiary_menu_linklist": "",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "announcement2": {
+      "type": "announcement",
+      "blocks": {
+        "text_YNQ3dd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Recibe 2 muestras gratuitas en cada pedido<\/p>",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_eDpTLb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Envíos en 24\/48h<\/p>",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "desktop"
+          }
+        },
+        "text_ymHHMa": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Bienvenido a un Nuevo Mundo Aromático <\/strong><\/p>",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "text_YNQ3dd",
+        "text_eDpTLb",
+        "text_ymHHMa"
+      ],
+      "custom_css": [
+        ".announcement__bar-holder {background: rgb(74, 74, 75); background: linear-gradient( 270deg, rgba(255, 255, 255, 08) 0%, rgba(255, 255, 255, 08) 100% );}"
+      ],
+      "settings": {
+        "show_border": false,
+        "layout": "marquee",
+        "slider_speed": 7,
+        "text_alignment": "center",
+        "show_arrows": true,
+        "marquee_speed": 75,
+        "message_spacing": 100,
+        "text_size": 1,
+        "bg_color": "#000000",
+        "color": "#1d1d1d"
+      }
+    }
+  },
+  "order": [
+    "section_custom_code_iUB7pY",
+    "announcement",
+    "header",
+    "announcement2"
+  ]
+}

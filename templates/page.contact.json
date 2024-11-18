@@ -1,0 +1,311 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_breadcrumbs": true,
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-center",
+        "width": "wrapper",
+        "bg_color": "#f7f7f7",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "172009062881f37fe7": {
+      "type": "apps",
+      "blocks": {
+        "schema_breadcrumbs_by_bogdan_page_block_arRXEr": {
+          "type": "shopify:\/\/apps\/schema-breadcrumbs-by-bogdan\/blocks\/page-block\/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
+          "settings": {
+            "home": "Home",
+            "home_link": "\/",
+            "menu": "main-menu",
+            "separator": "›",
+            "custom_class": "",
+            "bb_show_hide": true,
+            "enable_custom_feature": false,
+            "bb_capitalize": true,
+            "bb_font_size": 13,
+            "bb_padding": 55,
+            "bb_top_padding": 10,
+            "bb_margin": 0,
+            "bb_align": "center",
+            "bb_color": "#c0c0c0",
+            "bb_hover_color": "",
+            "bb_home_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "schema_breadcrumbs_by_bogdan_page_block_arRXEr"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "section_divider_PDQhUK": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 9,
+        "padding_bottom": 28,
+        "padding_top_mobile": 50,
+        "padding_bottom_mobile": 50
+      }
+    },
+    "section_rich_text_wDacUV": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_zaneJj": {
+          "type": "heading",
+          "settings": {
+            "title": "¿Necesitas ayuda?",
+            "text_size": 6,
+            "text_tag": "h1",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_zaneJj"
+      ],
+      "settings": {
+        "enable_accordion": false,
+        "width": "wrapper",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "section_rich_text_wYWiyH": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_ByWD8Q": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "¿Necesitas ayuda?",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "text_EFcQKC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>En Cereria Mollá 1899, estamos a su disposición para resolver cualquier consulta que pueda tener. <\/p><p>Puede enviarnos un mensaje en cualquier momento y nos comunicaremos con usted en 2-3 días hábiles. Gracias de antemano por su paciencia.<\/p><p><\/p><p>Nuestro horario de Atención al Cliente es de lunes a viernes, de 10 a.m. a 5 p.m. (excepto los días festivos)<\/p><p><\/p>",
+            "text_size": 3,
+            "text_style": "font-body",
+            "padding_bottom": 6
+          }
+        }
+      },
+      "block_order": [
+        "subheading_ByWD8Q",
+        "text_EFcQKC"
+      ],
+      "settings": {
+        "enable_accordion": false,
+        "width": "wrapper--narrow",
+        "align_text": "text-center",
+        "bg_color": "#f0f0f0",
+        "color": "",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "contact": {
+      "type": "contact-form",
+      "blocks": {
+        "Name": {
+          "type": "text",
+          "settings": {
+            "title": "Nombre y apellidos",
+            "required": true
+          }
+        },
+        "Email": {
+          "type": "email",
+          "settings": {
+            "title": "Correo electrónico",
+            "required": true
+          }
+        },
+        "Options-select": {
+          "type": "select",
+          "settings": {
+            "title": "Asunto",
+            "label-one": "Información sobre el producto",
+            "label-two": "Seguimiento del pedido",
+            "label-three": "Devoluciones, cambios, reembolsos",
+            "label-four": "Experiencia de cliente",
+            "label-five": "Prensa y comunicación",
+            "label-six": "Otros"
+          }
+        },
+        "Message": {
+          "type": "body",
+          "settings": {
+            "title": "Descripción",
+            "required": true
+          }
+        },
+        "Optional-text": {
+          "type": "formHeading",
+          "settings": {
+            "title": "Por favor, indroduzca los detalles de su solicitud. Un asesor se pondrá en contacto con usted lo antes posible."
+          }
+        },
+        "Urgent-checkbox": {
+          "type": "checkbox",
+          "disabled": true,
+          "settings": {
+            "title": "This is urgent",
+            "required": false
+          }
+        },
+        "spacer_H8JT8f": {
+          "type": "spacer",
+          "settings": {
+            "line": false
+          }
+        }
+      },
+      "block_order": [
+        "Name",
+        "Email",
+        "Options-select",
+        "Message",
+        "Optional-text",
+        "Urgent-checkbox",
+        "spacer_H8JT8f"
+      ],
+      "settings": {
+        "title": "",
+        "terms": true,
+        "width": "wrapper--narrow",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "faq": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "heading-0": {
+          "type": "heading",
+          "settings": {
+            "title": "FAQ",
+            "text_tag": "h3"
+          }
+        },
+        "question-1": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Frequently asked question",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.<\/p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "question-2": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Frequently asked question",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.<\/p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "question-3": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Frequently asked question",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.<\/p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        }
+      },
+      "block_order": [
+        "heading-0",
+        "question-1",
+        "question-2",
+        "question-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper--narrow",
+        "columns": "1",
+        "bg_color": "#fafafa",
+        "color": "",
+        "border_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_hero_RYhLbB": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_HJn93a": {
+          "type": "heading",
+          "settings": {
+            "title": "¿Necesitas ayuda?",
+            "heading_size": 7,
+            "text_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HJn93a"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "screen-height-one-third",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/Captura_de_pantalla_2024-06-25_085959.png",
+        "link": "",
+        "mobile_height": "screen-height-one-third--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "172009062881f37fe7",
+    "section_divider_PDQhUK",
+    "section_rich_text_wDacUV",
+    "section_rich_text_wYWiyH",
+    "contact",
+    "faq",
+    "section_hero_RYhLbB"
+  ]
+}

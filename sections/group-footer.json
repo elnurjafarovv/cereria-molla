@@ -1,0 +1,113 @@
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "footer-2": {
+          "type": "text",
+          "settings": {
+            "image_width": 150,
+            "title": "Contacto",
+            "text_tag": "p",
+            "text": "<p><strong>Cerería Mollá 1899 <\/strong><\/p><p>C\/ Bufali, 32 – Apdo. Correos 104<\/p><p>46860 – Albaida – (Valencia) SPAIN<\/p><p>(+34) 96 290 10 96<\/p><p>customerservice@cereriamolla.com<\/p>",
+            "column_width": 25
+          }
+        },
+        "footer-1": {
+          "type": "linklist",
+          "settings": {
+            "linklist": "main-menu",
+            "title": "",
+            "text_tag": "p",
+            "column_width": 25
+          }
+        },
+        "linklist_eYbdCX": {
+          "type": "linklist",
+          "settings": {
+            "linklist": "footer",
+            "title": "",
+            "text_tag": "p",
+            "column_width": 25
+          }
+        },
+        "footer-0": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Newsletter",
+            "text": "<p>Recibe una oferta en tu primera compra y promociones exclusivas al suscribirte. <\/p>",
+            "text_tag": "p",
+            "show_name": false,
+            "button_text": "Enviar",
+            "show_arrow": false,
+            "terms": false,
+            "button_type": "btn--black",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_social_links": false,
+            "column_width": 25
+          }
+        },
+        "social_c4bxWg": {
+          "type": "social",
+          "settings": {
+            "title": "",
+            "text_tag": "h2",
+            "text": "",
+            "column_width": 33,
+            "enable_follow_on_shop": false
+          }
+        }
+      },
+      "block_order": [
+        "footer-2",
+        "footer-1",
+        "linklist_eYbdCX",
+        "footer-0",
+        "social_c4bxWg"
+      ],
+      "custom_css": [],
+      "settings": {
+        "logo_image_width": 125,
+        "overlay_opacity": 75,
+        "overlay_color": "#ffffff",
+        "border_color": "#212121",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "section_anchor_logo_BUKbVm": {
+      "type": "section-anchor-logo",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "padding_top": 54,
+        "padding_bottom": 96
+      }
+    },
+    "supporting-menu": {
+      "type": "section-supporting-menu",
+      "custom_css": [
+        ".wrapper--full-padded {background-color: #1d1d1d;}",
+        "a {color: #fff;}"
+      ],
+      "settings": {
+        "linklist": "bottom-footer-links",
+        "footer_payment_enable": false,
+        "show_locale_selector": false,
+        "show_country_selector": false,
+        "show_country_name": false,
+        "show_country_flag": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "footer",
+    "section_anchor_logo_BUKbVm",
+    "supporting-menu"
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "sections": {
+    "1730906349dc49673c": {
+      "type": "apps",
+      "blocks": {
+        "schema_breadcrumbs_by_bogdan_page_block_kmBf6g": {
+          "type": "shopify:\/\/apps\/schema-breadcrumbs-by-bogdan\/blocks\/page-block\/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
+          "settings": {
+            "home": "Home",
+            "home_link": "\/",
+            "menu": "main-menu",
+            "separator": "›",
+            "custom_class": "",
+            "bb_show_hide": true,
+            "enable_custom_feature": false,
+            "bb_capitalize": true,
+            "bb_font_size": 13,
+            "bb_padding": 55,
+            "bb_top_padding": 55,
+            "bb_margin": 0,
+            "bb_align": "center",
+            "bb_color": "#c0c0c0",
+            "bb_hover_color": "",
+            "bb_home_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "schema_breadcrumbs_by_bogdan_page_block_kmBf6g"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "section_rich_text_Weznbg": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_rxgX7T": {
+          "type": "heading",
+          "settings": {
+            "title": "Store Locator",
+            "text_size": 8,
+            "text_tag": "h2",
+            "padding_bottom": 16
+          }
+        },
+        "text_HipTp4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Consulta nuestro localizador para encontrar las tiendas más cercanas que ofrecen nuestros productos. <\/p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_rxgX7T",
+        "text_HipTp4"
+      ],
+      "settings": {
+        "enable_accordion": false,
+        "width": "wrapper",
+        "align_text": "text-center",
+        "bg_color": "#000000",
+        "color": "#ffffff",
+        "padding_top": 40,
+        "padding_bottom": 30
+      }
+    },
+    "section_rich_text_zVUVgh": {
+      "type": "section-rich-text",
+      "blocks": {
+        "text_HmE8t6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ubica tu tienda: Activa la geolocalización o ingresa tu ciudad o código postal para ver las tiendas en tu área.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "text_HmE8t6"
+      ],
+      "settings": {
+        "enable_accordion": false,
+        "width": "wrapper",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_breadcrumbs": false,
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": false,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-center",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 30,
+        "padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "1730906349dc49673c",
+    "section_rich_text_Weznbg",
+    "section_rich_text_zVUVgh",
+    "main"
+  ]
+}

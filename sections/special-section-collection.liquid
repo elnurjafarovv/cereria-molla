@@ -1,0 +1,329 @@
+{%- liquid
+  assign animation_order = 0
+  assign animation_anchor = '#Collection--' | append: section.id
+  assign bg_color = section.settings.bg_color
+  assign text_color = section.settings.color
+  assign layout_desktop = section.settings.layout_desktop
+  assign layout_mobile = section.settings.layout_mobile
+  assign heading = section.settings.heading
+  assign description = section.settings.description
+  assign link_text = section.settings.link_text
+  assign num_add_cart = section.settings.num_add_cart
+  assign has_content = false
+  if heading != blank or description != blank or link_text != blank
+    assign has_content = true
+  endif
+
+  assign grid_columns = section.settings.grid
+  assign grid_rows = section.settings.rows
+  assign layout = section.settings.layout
+
+  assign featured_collection = collections[section.settings.featured_collection]
+  assign limit_products = 20
+  assign limit_onboarding = 8
+
+  capture product_grid_classes
+    echo 'grid'
+
+    if layout_desktop == 'slider'
+      echo ' grid--slider'
+    endif
+
+    if layout_mobile == 'slider'
+      echo ' grid--mobile-slider'
+    else
+      echo ' grid--mobile-vertical'
+    endif
+  endcapture
+
+  assign columns_desktop = grid_columns | plus: 0
+  assign columns_medium = 3
+  assign columns_small = 2
+  assign columns_mobile = layout_mobile | plus: 0
+
+	if columns_desktop == 2 or columns_desktop == 4
+    assign columns_medium = 2
+  endif
+
+  if layout_desktop == 'grid'
+    assign limit_products = grid_columns | times: grid_rows
+    assign limit_onboarding = limit_products
+
+    if grid_columns == 2 or grid_columns == 4
+      assign columns_medium = 2
+    endif
+  endif
+
+-%}
+
+{%- style -%}
+ #Collection--{{ section.id }} {
+    --PT: {{ section.settings.padding_top }}px;
+    --PB: {{ section.settings.padding_bottom }}px;
+
+    {%- if has_content -%}
+      --PT-MOBILE: max({{ section.settings.padding_top }}px, calc(var(--gutter) * 2));
+    {%- endif -%}
+
+    --COLUMNS: {{ columns_desktop }};
+    --COLUMNS-MEDIUM: {{ columns_medium }};
+    --COLUMNS-SMALL: {{ columns_small }};
+    --COLUMNS-MOBILE: {{ columns_mobile }};
+
+    {%- unless bg_color == 'rgba(0,0,0,0)' or bg_color == blank -%}
+      --bg: {{ bg_color }};
+    {%- endunless -%}
+
+    {%- unless text_color == 'rgba(0,0,0,0)' or text_color == blank -%}
+      --text: {{ text_color }};
+      --text-light: {{ text_color | color_mix: settings.bg_color, 70 }};
+      --text-dark: {{ text_color | color_saturate: 10 | color_darken: 15 }};
+    {%- endunless -%}
+  }
+{%- endstyle -%}
+{%- if num_add_cart>0 -%}
+<section id="Collection--{{ section.id }}"
+  class="index-products section-padding special_section_collection"
+  data-section-id="{{ section.id }}"
+  data-section-type="product-grid" data-numtoadd="{{ num_add_cart }}">
+
+  <div class="grid-container{% if layout == 'left' %} grid-container--inline{% endif %}{% if layout_desktop == 'grid' %} {{ section.settings.width }}{% endif %}">
+    {%- if featured_collection != blank and featured_collection.products_count > 0 -%}
+      {%- if has_content -%}
+        <div class="grid__heading-holder{% if layout == 'inline' %} grid__heading-holder--inline{% elsif layout == 'left' %} grid__heading-holder--sticky{% elsif layout == 'center' %} text-center{% endif %}">
+          {%- if heading != blank or description != blank -%}
+            <div class="grid__heading-text">
+              {%- if heading != blank -%}
+                {%- assign animation_order = animation_order | plus: 1 -%}
+                <h2 class="grid__heading heading-size-5"
+                  data-aos="hero"
+                  data-aos-anchor="{{ animation_anchor }}"
+                  data-aos-order="{{ animation_order }}">{{ heading }}</h2>
+              {%- endif -%}
+  
+              {%- if description != blank -%}
+                {%- assign animation_order = animation_order | plus: 1 -%}
+                <div class="grid__description"
+                  data-aos="hero"
+                  data-aos-anchor="{{ animation_anchor }}"
+                  data-aos-order="{{ animation_order }}">
+                  {{ description }}
+                </div>
+              {%- endif -%}
+            </div>
+          {%- endif -%}
+        </div>
+      {%- endif -%}
+    {%- endif -%}
+    <div class="grid__items-holder">
+      <div class="grid-outer">
+        {%- capture product_items -%}
+          {%- if featured_collection != blank and featured_collection.products_count > 0 -%}
+
+              {%- liquid
+                for product in featured_collection.products limit: limit_products
+                  assign animation_delay = forloop.index0 | times: 1
+                  if layout_desktop == 'grid'
+                    assign grid_int = grid_columns | times: 1
+                    assign animation_delay = forloop.index0 | modulo: grid_int | times: 1
+                  endif
+
+                  render 'product-grid-item-collection', product: product, animation_delay: animation_delay, index: forloop.index, in_collection: true 
+                endfor
+              -%}
+            {%- endif -%}
+        {%- endcapture -%}
+
+        {%- if layout_desktop == 'slider' -%}
+          <grid-slider align-arrows>
+            <div class="{{ product_grid_classes }}" data-grid-slider>
+              {{ product_items }}
+            </div>
+          </grid-slider>
+        {%- else -%}
+          <div class="{{ product_grid_classes }}">
+            {{ product_items }}
+          </div>
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+</section>
+{%- endif -%}    
+
+{% schema %}
+  {
+    "name": "Special collection",
+    "settings": [
+      {
+        "label": "Heading",
+        "id": "heading",
+        "type": "text",
+        "default": "Best Sellers"
+      },
+      {
+        "type": "richtext",
+        "id": "description",
+        "label": "Text"
+      },
+      {
+        "type": "range",
+        "id": "num_add_cart",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "label": "Number add cart",
+        "default": 0
+      },
+      {
+        "type": "select",
+        "id": "layout",
+        "label": "Layout",
+        "options": [
+          {
+            "value": "inline",
+            "label": "In-line"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "left",
+            "label": "Left"
+          }
+        ],
+        "default": "inline"
+      },
+      {
+        "type": "header",
+        "content": "Products"
+      },
+      {
+        "type": "collection",
+        "id": "featured_collection",
+        "label": "Collection"
+      },
+      {
+        "type": "select",
+        "id": "layout_desktop",
+        "label": "Layout",
+        "options": [
+          {
+            "value": "grid",
+            "label": "Grid"
+          },
+          {
+            "value": "slider",
+            "label": "Slider"
+          }
+        ],
+        "default": "grid"
+      },
+      {
+        "type": "header",
+        "content": "Grid",
+        "info": "Applies only when layout is set to Grid"
+      },
+      {
+        "type":    "range",
+        "id":      "grid",
+        "label":   "Products per row",
+        "min":     2,
+        "max":     6,
+        "step":    1,
+        "default": 4
+      },
+      {
+        "type":    "range",
+        "id":      "rows",
+        "label":   "Number of rows",
+        "min":     1,
+        "max":     8,
+        "step":    1,
+        "default": 3
+      },
+      {
+        "type": "select",
+        "id": "width",
+        "label": "Width",
+        "default": "wrapper",
+        "options": [
+          {"value": "wrapper--full-padded", "label": "Full width padded"},
+          {"value": "wrapper", "label": "Normal"}
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Mobile"
+      },
+      {
+        "type": "select",
+        "id": "layout_mobile",
+        "label": "Layout",
+        "options": [
+          {
+            "value": "1",
+            "label": "1 item per row"
+          },
+          {
+            "value": "2",
+            "label": "2 items per row"
+          },
+          {
+            "value": "slider",
+            "label": "Slider"
+          }
+        ],
+        "default": "slider"
+      },
+      {
+        "type": "header",
+        "content": "Colors"
+      },
+      {
+        "type": "color",
+        "id": "bg_color",
+        "label": "Background"
+      },
+      {
+        "type": "color",
+        "id": "color",
+        "label": "Text"
+      },
+      {
+        "type": "header",
+        "content": "Section padding"
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "Padding top",
+        "default": 50
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "Padding bottom",
+        "default": 50
+      }
+    ],
+    "presets": [
+      {
+        "category": "Collection",
+        "name": "Special collection"
+      }
+    ],
+    "disabled_on": {
+      "groups": ["header", "aside", "footer"]
+    }
+  }
+{% endschema %}

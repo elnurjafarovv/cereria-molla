@@ -1,0 +1,279 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_breadcrumbs": false,
+        "subheading": "",
+        "subheading_size": 1,
+        "show_title": false,
+        "heading_size": 1,
+        "show_content": false,
+        "text_size": 1,
+        "align_text": "text-center",
+        "width": "wrapper",
+        "bg_color": "#f7f7f7",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_hero_HAMCVU": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_kwnY9B": {
+          "type": "heading",
+          "settings": {
+            "title": "Preguntas frecuentes",
+            "heading_size": 8,
+            "text_tag": "div"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kwnY9B"
+      ],
+      "settings": {
+        "height": "screen-height-one-third",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/banner_preguntas_frecuentes.jpg",
+        "link": "",
+        "mobile_height": "screen-height-one-third--mobile",
+        "flex_align_desktop": "align--bottom-left-desktop",
+        "flex_align_mobile": "align--bottom-center-mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "listbuttons_Fjpnjh": {
+      "type": "listbuttons",
+      "blocks": {
+        "buttons_JyAFEW": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Envío",
+            "button_url": "shopify:\/\/pages\/envio",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 0
+          }
+        },
+        "buttons_KLkQKh": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Devoluciones y reembolsos",
+            "button_url": "shopify:\/\/pages\/devoluciones-y-reembolsos",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 0
+          }
+        },
+        "buttons_whcC9k": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Productos",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 0
+          }
+        },
+        "buttons_d8iiJx": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Muestras",
+            "button_url": "shopify:\/\/pages\/muestras",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "buttons_JyAFEW",
+        "buttons_KLkQKh",
+        "buttons_whcC9k",
+        "buttons_d8iiJx"
+      ],
+      "settings": {
+        "subcollection_layout": "grid",
+        "color": "#ffffff",
+        "bg_color": "",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "faq-first": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "faq-heading": {
+          "type": "heading",
+          "settings": {
+            "title": "Productos",
+            "text_tag": "h1"
+          }
+        },
+        "faq-0": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "¿Qué tipo de ceras utilizan en sus velas?",
+            "content": "<p>Utilizamos ceras de alta calidad, incluyendo cera de abeja y cera vegetal, que son ecológicas y aseguran una combustión limpia y duradera. <\/p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "faq-1": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "¿Nuestros productos son ecológicos?",
+            "content": "<p>Sí, en Cerería Molla nos comprometemos con el medio ambiente. Nuestros productos están hechos con materiales sostenibles y envases reciclables. <\/p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "faq-2": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "¿Cómo puedo asegurarme de que estoy usando las velas de manera segura?",
+            "content": "<p>Siempre mantén las velas alejadas de materiales inflamables y nunca las dejes encendidas sin supervisión. Recorta la mecha a 5 mm antes de cada uso para evitar humo y prolongar la vida de la vela. <\/p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "question_E6AtgD": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "¿Cuánto tiempo duran las velas de Cereria Mollá 1899?",
+            "content": "<ul><li>Velas 70gr: duración de 20 horas.<\/li><li>Velas 230gr: duración de 50 horas.<\/li><li>Velas 600gr: duración de 80 horas.<\/li><li>Velas 3,5kg: duración de 200 horas.<\/li><li>Velas de 7kg: duración de 400 horas.<\/li><\/ul><p>Estos son tiempos aproximados, que variarán según el cuidado que se le dé al mantenimiento de la vela.<\/p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "question_cc8Mq8": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "default_open": false,
+            "title": "Recomendaciones productos Cereria Mollá 1899.",
+            "content": "<p>Lorem ipsum<\/p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        }
+      },
+      "block_order": [
+        "faq-heading",
+        "faq-0",
+        "faq-1",
+        "faq-2",
+        "question_E6AtgD",
+        "question_cc8Mq8"
+      ],
+      "settings": {
+        "width": "wrapper--narrow",
+        "columns": "1",
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_divider_hVyf3r": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "padding_top_mobile": 50,
+        "padding_bottom_mobile": 50
+      }
+    },
+    "section_rich_text_JmepzK": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_ynyL3V": {
+          "type": "heading",
+          "settings": {
+            "title": "¿Necesitas ayuda?",
+            "text_size": 4,
+            "text_tag": "h2",
+            "padding_bottom": 16
+          }
+        },
+        "text_7Mj9HU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ponte en contacto con nuestro equipo de Atención al cliente a través de uno de los siguientes canales.<\/p><p>Disponible de lunes a viernes de 10:00h a 14:00h y de 15:00h a 17:00h (excepto días festivos).<\/p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_8FryEq": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Contacto",
+            "button_url": "shopify:\/\/pages\/contact",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_ynyL3V",
+        "text_7Mj9HU",
+        "buttons_8FryEq"
+      ],
+      "settings": {
+        "enable_accordion": false,
+        "width": "wrapper--narrow",
+        "align_text": "text-center",
+        "bg_color": "rgba(0,0,0,0)",
+        "color": "#1d1d1d",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_hero_HAMCVU",
+    "listbuttons_Fjpnjh",
+    "faq-first",
+    "section_divider_hVyf3r",
+    "section_rich_text_JmepzK"
+  ]
+}

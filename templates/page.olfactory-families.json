@@ -1,0 +1,106 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_breadcrumbs": false,
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": false,
+        "heading_size": 8,
+        "show_content": false,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_list_collections_E3padz": {
+      "type": "section-list-collections",
+      "blocks": {
+        "collection_QgzpKe": {
+          "type": "collection",
+          "settings": {
+            "title": "{{ block.settings.featured_collection.title }}",
+            "featured_collection": "amaderadas",
+            "show_image": true,
+            "atributes_collection": "{{ block.settings.featured_collection.metafields.custom.atributos.value }}",
+            "image": "{{ block.settings.featured_collection.image }}",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "<p>{{ shop.brand.short_description }}<\/p>",
+            "color": "#000000",
+            "button_type": "btn--black",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        },
+        "collection_iLVPLY": {
+          "type": "collection",
+          "settings": {
+            "title": "{{ block.settings.featured_collection.title }}",
+            "featured_collection": "florales",
+            "show_image": true,
+            "atributes_collection": "{{ block.settings.featured_collection.metafields.custom.atributos.value }}",
+            "image": "{{ block.settings.featured_collection.image }}",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "<p>{{ shop.brand.short_description }}<\/p>",
+            "color": "#ffffff",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        },
+        "collection_QfaFRm": {
+          "type": "collection",
+          "settings": {
+            "title": "{{ block.settings.featured_collection.title }}",
+            "featured_collection": "frutales",
+            "show_image": true,
+            "atributes_collection": "{{ block.settings.featured_collection.metafields.custom.atributos.value }}",
+            "image": "{{ block.settings.featured_collection.image }}",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "<p>{{ shop.brand.short_description }}<\/p>",
+            "color": "#ffffff",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        }
+      },
+      "block_order": [
+        "collection_QgzpKe",
+        "collection_iLVPLY",
+        "collection_QfaFRm"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "layout": "stacked",
+        "show_product_count": false,
+        "layout_desktop": "slider",
+        "layout_mobile": "slider",
+        "product_limit": 6,
+        "grid": 4,
+        "rows": 3,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 32
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_list_collections_E3padz"
+  ]
+}

@@ -1,0 +1,994 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "section-slideshow",
+      "blocks": {
+        "slideshow-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cereria-Molla_CatalogoBoutique-aromas-bodegon-min.jpg",
+            "opacityid": 0,
+            "mobile_image": "shopify:\/\/shop_images\/Cereria-Molla_CatalogoBoutique-aromas-bodegon-min.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "Fragancias que inspiran",
+            "heading_size": 4,
+            "description": "",
+            "text_size": 1,
+            "flex_align_desktop": "align--bottom-center-desktop",
+            "flex_align_mobile": "align--bottom-center-mobile",
+            "bg_color": "",
+            "color": "#ffffff",
+            "first_button_text": "Colección",
+            "first_button_link": "https:\/\/www.cereriamolla.com\/collections\/velas-aromaticas",
+            "first_button_type": "btn--primary",
+            "first_button_size": "btn--large",
+            "first_button_style": "btn--solid",
+            "first_button_show_arrow": false,
+            "second_button_text": "",
+            "second_button_link": "\/",
+            "second_button_type": "btn--white",
+            "second_button_size": "btn--large",
+            "second_button_style": "btn--outline",
+            "second_button_show_arrow": false
+          }
+        },
+        "image_MMhzaf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BANNERS_DESKTOP_web.jpg",
+            "opacityid": 0,
+            "mobile_image": "shopify:\/\/shop_images\/Diseno_sin_titulo_22.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 11,
+            "description": "",
+            "text_size": 5,
+            "flex_align_desktop": "align--middle-center-desktop",
+            "flex_align_mobile": "align--middle-center-mobile",
+            "bg_color": "",
+            "color": "#ffffff",
+            "first_button_text": "",
+            "first_button_link": "shopify:\/\/pages\/amber-sandalwood-egipto-en-cada-gota",
+            "first_button_type": "btn--primary",
+            "first_button_size": "",
+            "first_button_style": "btn--solid",
+            "first_button_show_arrow": false,
+            "second_button_text": "",
+            "second_button_link": "shopify:\/\/pages\/bergamotto-di-calabria-la-esencia-de-la-brisa-medirerranea",
+            "second_button_type": "btn--white",
+            "second_button_size": "",
+            "second_button_style": "btn--solid",
+            "second_button_show_arrow": false
+          }
+        },
+        "image_ncUdEW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BANNERS_DESKTOP_3.jpg",
+            "opacityid": 0,
+            "mobile_image": "shopify:\/\/shop_images\/BANNERS_DESKTOP_1.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 11,
+            "description": "",
+            "text_size": 5,
+            "flex_align_desktop": "align--middle-center-desktop",
+            "flex_align_mobile": "align--middle-center-mobile",
+            "bg_color": "",
+            "color": "#ffffff",
+            "first_button_text": "",
+            "first_button_link": "",
+            "first_button_type": "btn--primary",
+            "first_button_size": "",
+            "first_button_style": "btn--solid",
+            "first_button_show_arrow": false,
+            "second_button_text": "",
+            "second_button_link": "",
+            "second_button_type": "btn--white",
+            "second_button_size": "",
+            "second_button_style": "btn--solid",
+            "second_button_show_arrow": false
+          }
+        },
+        "image_XXX49Y": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BLACK_FRIDAY.jpg",
+            "opacityid": 0,
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
+            "title": "Regalos Exclusivos de nuestro Aroma Signature",
+            "heading_size": 4,
+            "description": "",
+            "text_size": 5,
+            "flex_align_desktop": "align--bottom-center-desktop",
+            "flex_align_mobile": "align--middle-center-mobile",
+            "bg_color": "",
+            "color": "#FFFFFF",
+            "first_button_text": "Una vela mini de esencia suave,  Una vela de 230gr, perfecta para momentos de calma.                                               Por compras de más de 130€: Vela de 230gr + amenities exclusivos, para una experiencia completa.",
+            "first_button_link": "",
+            "first_button_type": "btn--primary",
+            "first_button_size": "",
+            "first_button_style": "btn--solid",
+            "first_button_show_arrow": false,
+            "second_button_text": "",
+            "second_button_link": "",
+            "second_button_type": "btn--white",
+            "second_button_size": "",
+            "second_button_style": "btn--solid",
+            "second_button_show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "slideshow-0",
+        "image_MMhzaf",
+        "image_ncUdEW",
+        "image_XXX49Y"
+      ],
+      "settings": {
+        "height": "screen-height-full",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "transition": "fade",
+        "show_arrows": true,
+        "autoplay": false,
+        "autoplay_speed": 8
+      }
+    },
+    "section_divider_9APb94": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": false,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 26,
+        "padding_bottom": 16,
+        "padding_top_mobile": 50,
+        "padding_bottom_mobile": 50
+      }
+    },
+    "section_video_AiYUga": {
+      "type": "section-video",
+      "settings": {
+        "video": "shopify:\/\/files\/videos\/CM ING-CAST.mp4",
+        "show_video_popup": false,
+        "video_popup_social": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "desktop_height": "screen-height-full",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "width": "wrapper--full",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "title": "",
+        "heading_size": 8,
+        "description": "",
+        "text_size": 3,
+        "flex_align": "align--middle-center",
+        "bg_color": "",
+        "color": "#ffffff",
+        "link_text": "",
+        "link": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false
+      }
+    },
+    "section_divider_NzYEwH": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": false,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "padding_top_mobile": 24,
+        "padding_bottom_mobile": 24
+      }
+    },
+    "section_columns_6KKfJN": {
+      "type": "section-columns",
+      "blocks": {
+        "image_aMmxqi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cereria-Molla_1899_2-min.jpg",
+            "image_aspect_ratio": 1,
+            "overlay_opacity": 0,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Velas aromáticas",
+            "heading_size": 4,
+            "text": "<p>Encuentra el aroma perfecto<\/p>",
+            "text_size": 1,
+            "button_text": "Ver categoría",
+            "button_url": "shopify:\/\/collections\/velas-aromaticas",
+            "button_type": "btn--primary",
+            "button_size": "btn--large",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        },
+        "image_XwhtAD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Captura_de_pantalla_2024-06-26_171609.png",
+            "image_aspect_ratio": 1,
+            "overlay_opacity": 0,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Ambientadores",
+            "heading_size": 4,
+            "text": "<p>Transforma tu hogar en un espacio único<\/p>",
+            "text_size": 1,
+            "button_text": "Ver categoría",
+            "button_url": "shopify:\/\/collections\/ambientadores",
+            "button_type": "btn--primary",
+            "button_size": "btn--large",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        },
+        "image_jWQM8N": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cereria-Molla_1899_4-min.jpg",
+            "image_aspect_ratio": 1,
+            "overlay_opacity": 0,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Baño & Cuerpo",
+            "heading_size": 4,
+            "text": "<p>Revitaliza tu cuerpo y mente<\/p>",
+            "text_size": 1,
+            "button_text": "Ver categoría",
+            "button_url": "shopify:\/\/collections\/bano-cuerpo",
+            "button_type": "btn--primary",
+            "button_size": "btn--large",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        },
+        "image_BgDRNh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CERRERIA-MOLLA---026.jpg",
+            "image_aspect_ratio": 1,
+            "overlay_opacity": 0,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Sets para regalo",
+            "heading_size": 4,
+            "text": "<p>Encuentra el regalo perfecto<\/p>",
+            "text_size": 1,
+            "button_text": "Ver categoría",
+            "button_url": "shopify:\/\/collections\/regalos",
+            "button_type": "btn--primary",
+            "button_size": "btn--large",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_aMmxqi",
+        "image_XwhtAD",
+        "image_jWQM8N",
+        "image_BgDRNh"
+      ],
+      "custom_css": [],
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "layout": "grid",
+        "grid": 4,
+        "align_heading": "text-center",
+        "align_text": "text-center",
+        "align_columns": "flex-align-center",
+        "width": "wrapper--full-padded",
+        "bg_color": "",
+        "color": "#1d1d1d",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "layout_mobile": "1"
+      }
+    },
+    "section_divider_C9Yxcw": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": false,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "padding_top_mobile": 24,
+        "padding_bottom_mobile": 24
+      }
+    },
+    "tabs": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "tabs-1": {
+          "type": "collection",
+          "settings": {
+            "title": "Novedades",
+            "featured_collection": "novedades",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "color": "#ffffff",
+            "link_text": "View products",
+            "link": "shopify:\/\/collections\/novedades",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        },
+        "tabs-0": {
+          "type": "collection",
+          "settings": {
+            "title": "Best seller",
+            "featured_collection": "best-sellers",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_opacity": 45,
+            "overlay_color": "#000000",
+            "description": "<p>test<\/p>",
+            "color": "#ffffff",
+            "link_text": "View products",
+            "link": "shopify:\/\/collections\/best-sellers",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        },
+        "collection_ERNaUh": {
+          "type": "collection",
+          "settings": {
+            "title": "Regalos",
+            "featured_collection": "regalos",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "color": "#ffffff",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "tabs-1",
+        "tabs-0",
+        "collection_ERNaUh"
+      ],
+      "custom_css": [],
+      "settings": {
+        "title": "Más vendidos",
+        "text": "<p>Descubre nuestros productos más populares<\/p>",
+        "layout": "stacked",
+        "show_product_count": false,
+        "layout_desktop": "slider",
+        "layout_mobile": "slider",
+        "product_limit": 6,
+        "grid": 4,
+        "rows": 3,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_divider_LUqUp3": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": false,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "padding_top_mobile": 24,
+        "padding_bottom_mobile": 24
+      }
+    },
+    "section_custom_look_GcUPTh": {
+      "type": "section-custom-look",
+      "blocks": {
+        "product_iWXQfH": {
+          "type": "product",
+          "settings": {
+            "product": "vela-bergamotto-di-calabria-xl",
+            "position_x": 45,
+            "position_y": 60
+          }
+        },
+        "product_cjWPEH": {
+          "type": "product",
+          "settings": {
+            "product": "vela-mediterranean-blue-xxl-1",
+            "position_x": 50,
+            "position_y": 50
+          }
+        },
+        "product_GnmRxF": {
+          "type": "product",
+          "settings": {
+            "product": "vela-fig-citrus-xl",
+            "position_x": 50,
+            "position_y": 50
+          }
+        },
+        "product_c7xC9X": {
+          "type": "product",
+          "settings": {
+            "product": "mikado-provence-lavender-500ml",
+            "position_x": 50,
+            "position_y": 50
+          }
+        },
+        "product_kyGXJc": {
+          "type": "product",
+          "settings": {
+            "product": "spray-textil-verbena-di-sicilia-500ml",
+            "position_x": 50,
+            "position_y": 50
+          }
+        },
+        "product_4di7mH": {
+          "type": "product",
+          "settings": {
+            "product": "vela-bulgarian-rose-oud-230gr",
+            "position_x": 50,
+            "position_y": 50
+          }
+        }
+      },
+      "block_order": [
+        "product_iWXQfH",
+        "product_cjWPEH",
+        "product_GnmRxF",
+        "product_c7xC9X",
+        "product_kyGXJc",
+        "product_4di7mH"
+      ],
+      "custom_css": [
+        ".product-item__title {font-family: var(--FONT-STACK-HEADING); font-weight: 400;}"
+      ],
+      "settings": {
+        "layout": "",
+        "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_13.jpg",
+        "title": "",
+        "title_hover_image": "Elegancia Aromática",
+        "text_hover_image": "Descubre la Elegancia en Aroma: Mikados Cereria Mollá 1899, Un Lujo que Transforma Tu Hogar",
+        "show_dots": false,
+        "products_per_row": "2",
+        "enable_aspect_ratio": false,
+        "image_aspect_ratio": 1.5,
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--text",
+        "show_arrow": false,
+        "bg_color": "#f5f5f6",
+        "color": "{{ shop.brand.colors.primary[0].background }}",
+        "dot_color": "",
+        "dot_background": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_divider_PWyC8a": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 50,
+        "padding_bottom_mobile": 50
+      }
+    },
+    "section_collections_complet_Mh8DyU": {
+      "type": "section-collections-complet",
+      "blocks": {
+        "collection_mmpJdR": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/familia-olfativa-amaderado.jpg",
+            "title": "Amaderadas"
+          }
+        },
+        "collection_ygmGCn": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/9.jpg",
+            "title": "Frutales"
+          }
+        },
+        "collection_wDKJMp": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/close-up-pastel-pink-flower-petalsbj.webp",
+            "title": "Florales"
+          }
+        }
+      },
+      "block_order": [
+        "collection_mmpJdR",
+        "collection_ygmGCn",
+        "collection_wDKJMp"
+      ],
+      "settings": {
+        "title_section": "Familias olfativas",
+        "description": "<p>Descubre las características de cada familia olfativa y los aromas que las conforman.<\/p>",
+        "button_text": "VER TODAS",
+        "button_url": "shopify:\/\/collections\/fragancias",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "overlay_opacity": 20,
+        "overlay_color": "#000000",
+        "show_overlay_text": true,
+        "heading_size": 7,
+        "bg_color": "",
+        "color": "#ffffff",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_divider_xUQKtJ": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": false,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "padding_top_mobile": 24,
+        "padding_bottom_mobile": 24
+      }
+    },
+    "section_divider_RMaezY": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": false,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "padding_top_mobile": 24,
+        "padding_bottom_mobile": 24
+      }
+    },
+    "section_timeline_iewyyF": {
+      "type": "section-timeline",
+      "blocks": {
+        "timeline_rUzg4w": {
+          "type": "timeline",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Historia_1_bc.png",
+            "subheading": "Historia desde 1899",
+            "subheading_size": 3,
+            "title": "Nuestra historia: tradición y excelencia",
+            "heading_size": 5,
+            "text": "<p>Desde 1899, Cereria Mollá 1899 ha sido testigo y protagonista de una evolución fascinante en la fabricación de velas.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "button_text": "Ver más",
+            "button_url": "shopify:\/\/pages\/historia-desde-1899",
+            "button_type": "btn--primary",
+            "button_size": "btn--small",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        },
+        "timeline_yi4qbT": {
+          "type": "timeline",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/arbol_compromiso.png",
+            "subheading": "Nuestro compromiso",
+            "subheading_size": 3,
+            "title": "Un futuro sostenible y responsable",
+            "heading_size": 5,
+            "text": "<p>En Cerería Mollá creemos que el éxito no solo se mide por nuestros logros económicos, sino también por el impacto positivo que generamos en la sociedad y el medio ambiente. <\/p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "button_text": "Ver más",
+            "button_url": "shopify:\/\/pages\/nuestro-compromiso",
+            "button_type": "btn--primary",
+            "button_size": "btn--small",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        },
+        "timeline_hXycE7": {
+          "type": "timeline",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cereria-Molla_Catalogo-candle-perfum-head-min.png",
+            "subheading": "Handmade Emotions",
+            "subheading_size": 3,
+            "title": "Ingredientes de origen vegetal",
+            "heading_size": 5,
+            "text": "<p>Utilizamos ingredientes sostenibles de la más alta calidad en nuestras fragancias, garantizando una experiencia sensorial excepcional. <\/p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "button_text": "Ver más",
+            "button_url": "shopify:\/\/pages\/handmade-emotions",
+            "button_type": "btn--primary",
+            "button_size": "btn--small",
+            "button_style": "btn--text",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "timeline_rUzg4w",
+        "timeline_yi4qbT",
+        "timeline_hXycE7"
+      ],
+      "custom_css": [],
+      "settings": {
+        "title": "",
+        "heading_size": 8,
+        "text": "",
+        "text_size": 4,
+        "text_alignment": "text-left",
+        "show_images": true,
+        "bg_color": "",
+        "color": "",
+        "dot_background": "rgba(0,0,0,0)",
+        "width": "wrapper--full",
+        "mobile_height": "screen-height-one-third--mobile",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_divider_YmAxGn": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": false,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "padding_top_mobile": 24,
+        "padding_bottom_mobile": 24
+      }
+    },
+    "section_rich_text_4JXhTC": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_XqgTLh": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Siguenos",
+            "text_size": 2,
+            "padding_bottom": 16
+          }
+        },
+        "heading_HbdjCr": {
+          "type": "heading",
+          "settings": {
+            "title": "@cereria_molla_1899",
+            "text_size": 4,
+            "text_tag": "h3",
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "subheading_XqgTLh",
+        "heading_HbdjCr"
+      ],
+      "custom_css": [
+        ".hero__subheading {text-transform: none; font-size: 14px; margin-bottom: 8px; color: #b5b5b8;}",
+        ".hero__title {color: #1d1d1d; font-size: 20px;}"
+      ],
+      "settings": {
+        "enable_accordion": false,
+        "width": "wrapper--full-padded",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_columns_e8CnfB": {
+      "type": "section-columns",
+      "blocks": {
+        "image_g8kmzT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Captura_de_pantalla_2024-06-25_090333.png",
+            "image_aspect_ratio": 1,
+            "overlay_opacity": 0,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_qWKc6M": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Captura_de_pantalla_2024-06-25_085959.png",
+            "image_aspect_ratio": 1,
+            "overlay_opacity": 0,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_zAwpWH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Captura_de_pantalla_2024-06-25_090442.png",
+            "image_aspect_ratio": 1,
+            "overlay_opacity": 0,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_m7fKrw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_d7696f4f-5be8-428d-a88e-ff4cf8de67d7.jpg",
+            "image_aspect_ratio": 1,
+            "overlay_opacity": 0,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_HUwiqA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vela-moroccan-cedar-70g-ambiente.jpg",
+            "image_aspect_ratio": 1,
+            "overlay_opacity": 0,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_HG93pC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cereria-Molla_1899_9-min.png",
+            "image_aspect_ratio": 1,
+            "overlay_opacity": 0,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_g8kmzT",
+        "image_qWKc6M",
+        "image_zAwpWH",
+        "image_m7fKrw",
+        "image_HUwiqA",
+        "image_HG93pC"
+      ],
+      "custom_css": [],
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "layout": "grid",
+        "grid": 6,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper--full-padded",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 16,
+        "padding_bottom": 0,
+        "layout_mobile": "2"
+      }
+    },
+    "section_divider_eiw9gP": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": false,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "padding_top_mobile": 24,
+        "padding_bottom_mobile": 24
+      }
+    },
+    "section_divider_9ECxkk": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": false,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "padding_top_mobile": 24,
+        "padding_bottom_mobile": 24
+      }
+    },
+    "icons": {
+      "type": "section-text-row",
+      "blocks": {
+        "icon-0": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-fast-shipment",
+            "icon_size": 20,
+            "icon_color": "#1d1d1d",
+            "title": "Envío gratis",
+            "text_tag": "h2",
+            "heading_size": 4,
+            "text": "<p>Disfruta de una entrega gratuita en pedidos superiores a 60€.<\/p>",
+            "text_size": 3
+          }
+        },
+        "icon-1": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-recycle",
+            "icon_size": 20,
+            "icon_color": "#1d1d1d",
+            "title": "Pago seguro",
+            "text_tag": "h2",
+            "heading_size": 4,
+            "text": "<p>Nuestro pago es rápido y fácil de usar.<\/p><p><\/p>",
+            "text_size": 3
+          }
+        },
+        "icon-2": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-chat",
+            "icon_size": 20,
+            "icon_color": "#1d1d1d",
+            "title": "Contacta con nosotros",
+            "text_tag": "h2",
+            "heading_size": 4,
+            "text": "<p>¿Tienes preguntas? Ponte en contacto con nosotros.<\/p><p><\/p>",
+            "text_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "icon-0",
+        "icon-1",
+        "icon-2"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".body-size-3 {color: #868688; font-size: 14px;}",
+        ".text-center .icon__animated {margin-bottom: 8px;}",
+        ".column__heading {font-weight: 400; font-size: 20px;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 4,
+        "layout": "grid",
+        "grid": 3,
+        "align_heading": "text-center",
+        "align_text": "text-center",
+        "icon_alignment": "icon--top",
+        "align_columns": "flex-align-center",
+        "width": "wrapper",
+        "bg_color": "#fafafa",
+        "color": "#1d1d1d",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "layout_mobile": "1"
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "section_divider_9APb94",
+    "section_video_AiYUga",
+    "section_divider_NzYEwH",
+    "section_columns_6KKfJN",
+    "section_divider_C9Yxcw",
+    "tabs",
+    "section_divider_LUqUp3",
+    "section_custom_look_GcUPTh",
+    "section_divider_PWyC8a",
+    "section_collections_complet_Mh8DyU",
+    "section_divider_xUQKtJ",
+    "section_divider_RMaezY",
+    "section_timeline_iewyyF",
+    "section_divider_YmAxGn",
+    "section_rich_text_4JXhTC",
+    "section_columns_e8CnfB",
+    "section_divider_eiw9gP",
+    "section_divider_9ECxkk",
+    "icons"
+  ]
+}

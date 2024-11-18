@@ -1,0 +1,568 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_breadcrumbs": true,
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "1729512405640ecbf8": {
+      "type": "apps",
+      "blocks": {
+        "schema_breadcrumbs_by_bogdan_page_block_qmczrt": {
+          "type": "shopify:\/\/apps\/schema-breadcrumbs-by-bogdan\/blocks\/page-block\/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
+          "settings": {
+            "home": "Home",
+            "home_link": "\/",
+            "menu": "main-menu",
+            "separator": "›",
+            "custom_class": "",
+            "bb_show_hide": true,
+            "enable_custom_feature": false,
+            "bb_capitalize": true,
+            "bb_font_size": 13,
+            "bb_padding": 55,
+            "bb_top_padding": 55,
+            "bb_margin": 0,
+            "bb_align": "center",
+            "bb_color": "#c0c0c0",
+            "bb_hover_color": "",
+            "bb_home_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "schema_breadcrumbs_by_bogdan_page_block_qmczrt"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "section_custom_content_cTKAkU": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_FnUpc3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tiendas_1.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "text_tag": "h2",
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "text_nPfg7M": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 3,
+            "title": "Distribuidores y Tiendas",
+            "heading_size": 8,
+            "text_tag": "h2",
+            "text": "<p>¿Quieres más información o acceder a nuestros catálogos exclusivos? Descubre cómo llevar el estilo y la calidad de nuestros productos a tu negocio.<\/p>",
+            "text_size": 4,
+            "button_text": "Formulario",
+            "button_url": "shopify:\/\/pages\/velas-perfumadas-por-mayor",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_FnUpc3",
+        "text_nPfg7M"
+      ],
+      "settings": {
+        "height": "screen-height-full",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full-padded",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_YKtEXg": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_DCM7UQ": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 3,
+            "title": "Ambienta tu negocio",
+            "heading_size": 8,
+            "text_tag": "h2",
+            "text": "<p>Descubre cómo nuestras fragancias y velas artesanales crean una atmósfera inolvidable, elevando la experiencia de tus clientes y mejorando el ambiente en tu espacio de trabajo.<\/p>",
+            "text_size": 4,
+            "button_text": "Descubre los productos",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": ""
+          }
+        },
+        "image_jMwRYq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner_profesional_1.1.4.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "text_tag": "h2",
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#FFFFFF",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "text_DCM7UQ",
+        "image_jMwRYq"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full-padded",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_divider_TTBnpY": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 50,
+        "padding_bottom_mobile": 50
+      }
+    },
+    "section_hero_bh8PUC": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_tga6Hn": {
+          "type": "heading",
+          "settings": {
+            "title": "Ambienta tu negocio",
+            "heading_size": 9,
+            "text_tag": "h2"
+          }
+        },
+        "text_8zctzD": {
+          "type": "text",
+          "settings": {
+            "content": "",
+            "text_size": 5,
+            "text_style": "font-body"
+          }
+        },
+        "button_yW7Tmt": {
+          "type": "button",
+          "settings": {
+            "link_text": "DESCUBRE",
+            "link": "shopify:\/\/pages\/ambienta-tu-negocio",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_tga6Hn",
+        "text_8zctzD",
+        "button_yW7Tmt"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "screen-height-full",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/banner_profesional_1.1.4.jpg",
+        "link": "",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "mobile_image": "shopify:\/\/shop_images\/banner_profesional_1.1.4.jpg",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_hero_DFDrM3": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_GPtCHa": {
+          "type": "heading",
+          "settings": {
+            "title": "Descubre nuestros aromas",
+            "heading_size": 8,
+            "text_tag": "h2"
+          }
+        },
+        "text_ExMgJQ": {
+          "type": "text",
+          "settings": {
+            "content": "<p>Descubre el alma de nuestro catálogo: fragancias únicas diseñadas para transformar cualquier espacio.<\/p>",
+            "text_size": 1,
+            "text_style": "font-body"
+          }
+        },
+        "button_xnW3Jk": {
+          "type": "button",
+          "settings": {
+            "link_text": "Explorar",
+            "link": "shopify:\/\/pages\/fragancias",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_GPtCHa",
+        "text_ExMgJQ",
+        "button_xnW3Jk"
+      ],
+      "settings": {
+        "height": "screen-height-two-thirds",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/ambientadores_2.png",
+        "link": "",
+        "mobile_height": "screen-height-two-thirds--mobile",
+        "flex_align_desktop": "align--middle-left-desktop",
+        "flex_align_mobile": "align--top-left-mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_divider_P9FH8X": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 50,
+        "padding_bottom_mobile": 60
+      }
+    },
+    "section_rich_text_L8gNE4": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_riq7RU": {
+          "type": "heading",
+          "settings": {
+            "title": "Conecta con nuestra esencia en Instagram",
+            "text_size": 8,
+            "text_tag": "h2",
+            "padding_bottom": 16
+          }
+        },
+        "text_kwhxrk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Encuentra la inspiración perfecta para tus ambientes. Descubre nuestras fragancias en acción y conoce ideas para transformar tu hogar.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_9qTxwM": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "@cereria_molla_1899",
+            "button_url": "https:\/\/www.instagram.com\/cereria_molla_1899\/",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_riq7RU",
+        "text_kwhxrk",
+        "buttons_9qTxwM"
+      ],
+      "settings": {
+        "enable_accordion": false,
+        "width": "wrapper",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
+    "section_columns_TQW9BU": {
+      "type": "section-columns",
+      "blocks": {
+        "image_Nintd4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/412A9932_2.jpg",
+            "image_aspect_ratio": 1,
+            "overlay_opacity": 0,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "https:\/\/www.instagram.com\/cereria_molla_1899\/",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_rkHX3R": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/412A9614_2.jpg",
+            "image_aspect_ratio": 1,
+            "overlay_opacity": 0,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_fRGDyq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/412A9964_2.jpg",
+            "image_aspect_ratio": 1,
+            "overlay_opacity": 0,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_xJDmw8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/412A9624_2.jpg",
+            "image_aspect_ratio": 1,
+            "overlay_opacity": 0,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "",
+            "heading_size": 4,
+            "text": "",
+            "text_size": 3,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_Nintd4",
+        "image_rkHX3R",
+        "image_fRGDyq",
+        "image_xJDmw8"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 1,
+        "layout": "grid",
+        "grid": 4,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper--full-padded",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 20,
+        "padding_bottom": 50,
+        "layout_mobile": "slider"
+      }
+    },
+    "section_rich_text_yjYpPY": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_9ptFzx": {
+          "type": "heading",
+          "settings": {
+            "title": "¿Quieres saber más?",
+            "text_size": 3,
+            "text_tag": "h2",
+            "padding_bottom": 16
+          }
+        },
+        "text_KFRthP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Síguenos en nuestras redes sociales o suscríbete a nuestra Newsletter para mantenerte al día con nuestras últimas novedades.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_gQ7fcL": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Suscríbete",
+            "button_url": "shopify:\/\/pages\/newsletter",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_9ptFzx",
+        "text_KFRthP",
+        "buttons_gQ7fcL"
+      ],
+      "settings": {
+        "enable_accordion": false,
+        "width": "wrapper",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 54,
+        "padding_bottom": 100
+      }
+    },
+    "text_promo_CJNNAt": {
+      "type": "text-promo",
+      "blocks": {
+        "heading_DDU4Le": {
+          "type": "heading",
+          "settings": {
+            "title": "Zona Profesional",
+            "text_size": 6
+          }
+        },
+        "text_EKRDxd": {
+          "type": "text",
+          "settings": {
+            "content": "Ofrecemos un servicio especializado para distribuidores, minoristas y negocios que buscan productos de alta calidad con condiciones preferenciales. Nuestra sección B2B está diseñada para proporcionar atención personalizada, precios competitivos y soluciones a medida, garantizando una relación comercial sólida y beneficiosa.\n\nSi estás interesado en incorporar nuestros productos a tu negocio, te invitamos a contactarnos y descubrir las ventajas de trabajar con nosotros.",
+            "text_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "heading_DDU4Le",
+        "text_EKRDxd"
+      ],
+      "settings": {
+        "width": "wrapper--full-padded",
+        "border": true,
+        "bg_color": "",
+        "color": "",
+        "overlay_opacity": 0,
+        "overlay_color": "#000",
+        "show_overlay_text": false,
+        "inner_padding": 50,
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "1729512405640ecbf8",
+    "text_promo_CJNNAt",
+    "main",
+    "section_custom_content_cTKAkU",
+    "section_custom_content_YKtEXg",
+    "section_divider_TTBnpY",
+    "section_hero_bh8PUC",
+    "section_hero_DFDrM3",
+    "section_divider_P9FH8X",
+    "section_rich_text_L8gNE4",
+    "section_columns_TQW9BU",
+    "section_rich_text_yjYpPY"
+  ]
+}

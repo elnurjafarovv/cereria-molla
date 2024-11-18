@@ -1,0 +1,364 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_breadcrumbs": true,
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "17193984574e2c48dd": {
+      "type": "apps",
+      "blocks": {
+        "schema_breadcrumbs_by_bogdan_page_block_Q6Epgz": {
+          "type": "shopify:\/\/apps\/schema-breadcrumbs-by-bogdan\/blocks\/page-block\/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
+          "settings": {
+            "home": "Home",
+            "home_link": "\/",
+            "menu": "main-menu",
+            "separator": "›",
+            "custom_class": "",
+            "bb_show_hide": true,
+            "enable_custom_feature": false,
+            "bb_capitalize": true,
+            "bb_font_size": 13,
+            "bb_padding": 55,
+            "bb_top_padding": 55,
+            "bb_margin": 0,
+            "bb_align": "center",
+            "bb_color": "#c0c0c0",
+            "bb_hover_color": "",
+            "bb_home_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "schema_breadcrumbs_by_bogdan_page_block_Q6Epgz"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "section_double_3qCabe": {
+      "type": "section-double",
+      "blocks": {
+        "heading_ck9BrN": {
+          "type": "heading",
+          "settings": {
+            "title": "{{ page.title }}",
+            "text_size": 6,
+            "padding_bottom": 16
+          }
+        },
+        "buttons_DyrN3m": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "{{ page.metafields.custom.custombutton1.value.texto.value }}",
+            "button_url": "{{ page.metafields.custom.custombutton1.value.link.value }}",
+            "button_type": "btn--primary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        },
+        "buttons_8acXDr": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "{{ page.metafields.custom.custombutton2.value.texto.value }}",
+            "button_url": "{{ page.metafields.custom.custombutton2.value.link.value }}",
+            "button_type": "btn--primary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        },
+        "buttons_nRLJLe": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "{{ page.metafields.custom.custombutton3.value.texto.value }}",
+            "button_url": "{{ page.metafields.custom.custombutton3.value.link.value }}",
+            "button_type": "btn--primary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        },
+        "buttons_9BibKQ": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "{{ page.metafields.custom.custombutton4.value.texto.value }}",
+            "button_url": "{{ page.metafields.custom.custombutton4.value.link.value }}",
+            "button_type": "btn--primary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        },
+        "buttons_TN3hJM": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "{{ page.metafields.custom.custombutton5.value.texto.value }}",
+            "button_url": "{{ page.metafields.custom.custombutton5.value.link.value }}",
+            "button_type": "btn--primary",
+            "button_size": "btn--small",
+            "button_style": "btn--outline",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        },
+        "text_wxrhJw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ page.metafields.custom.testbannerheader | metafield_tag }}<\/p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_ck9BrN",
+        "buttons_DyrN3m",
+        "buttons_8acXDr",
+        "buttons_nRLJLe",
+        "buttons_9BibKQ",
+        "buttons_TN3hJM",
+        "text_wxrhJw"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "image_1": "{{ page.metafields.custom.imgbannerheader.value }}",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "reverse_blocks": false,
+        "bg_color": "",
+        "color": "#1d1d1d",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_accordion_group_px4YeE": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "question_qCJpC6": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "{{ page.metafields.custom.notasalida1.value.titulo.value }}",
+            "content": "{{ page.metafields.custom.notasalida1.value.contenido | metafield_tag }}",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#868688"
+          }
+        },
+        "question_nW8Q4P": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "{{ page.metafields.custom.notasalida2.value.titulo.value }}",
+            "content": "{{ page.metafields.custom.notasalida2.value.contenido | metafield_tag }}",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        },
+        "question_jWM8L6": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "{{ page.metafields.custom.notasalida3.value.titulo.value }}",
+            "content": "{{ page.metafields.custom.notasalida3.value.contenido | metafield_tag }}",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "#545454"
+          }
+        }
+      },
+      "block_order": [
+        "question_qCJpC6",
+        "question_nW8Q4P",
+        "question_jWM8L6"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "columns": "1",
+        "bg_color": "",
+        "color": "#868688",
+        "border_color": "",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "section_divider_UWdFGz": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 16,
+        "padding_bottom": 16,
+        "padding_top_mobile": 8,
+        "padding_bottom_mobile": 50
+      }
+    },
+    "section_collection_Wgeg8B": {
+      "type": "section-collection",
+      "settings": {
+        "heading": "",
+        "description": "",
+        "layout": "inline",
+        "link_text": "",
+        "link_url": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "featured_collection": "provence-lavender",
+        "layout_desktop": "grid",
+        "grid": 4,
+        "rows": 3,
+        "width": "wrapper",
+        "layout_mobile": "slider",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_collection_8z6Caz": {
+      "type": "section-collection",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "description": "",
+        "layout": "inline",
+        "link_text": "",
+        "link_url": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "featured_collection": "{{ page.metafields.custom.productosrelacionadosapagina.value }}",
+        "layout_desktop": "slider",
+        "grid": 4,
+        "rows": 3,
+        "width": "wrapper",
+        "layout_mobile": "slider",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "section_divider_3fW8d8": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 16,
+        "padding_bottom": 16,
+        "padding_top_mobile": 8,
+        "padding_bottom_mobile": 8
+      }
+    },
+    "section_text_row_39hUpm": {
+      "type": "section-text-row",
+      "blocks": {
+        "icon_iGAqDg": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-truck",
+            "icon_size": 25,
+            "icon_color": "#1d1d1d",
+            "title": "Envios gratis",
+            "heading_size": 4,
+            "text": "<p>Disfruta de una entrega gratuita en pedidos superiores a 60€<\/p>",
+            "text_size": 3
+          }
+        },
+        "icon_TBxwpr": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-recycle",
+            "icon_size": 25,
+            "icon_color": "#1d1d1d",
+            "title": "Pago seguro",
+            "heading_size": 4,
+            "text": "<p>Nuestro pao es rápido y fácil de usar.<\/p>",
+            "text_size": 3
+          }
+        },
+        "icon_PmtLaJ": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-chat",
+            "icon_size": 20,
+            "icon_color": "#1d1d1d",
+            "title": "Contacta con nosotros",
+            "heading_size": 4,
+            "text": "<p>¿Tienes preguntas? Ponte en contacto con nosotros.<\/p>",
+            "text_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "icon_iGAqDg",
+        "icon_TBxwpr",
+        "icon_PmtLaJ"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "heading_size": 2,
+        "layout": "grid",
+        "grid": 3,
+        "align_heading": "text-center",
+        "align_text": "text-center",
+        "icon_alignment": "icon--top",
+        "align_columns": "flex-align-center",
+        "width": "wrapper",
+        "bg_color": "#f5f5f6",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "layout_mobile": "slider"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "17193984574e2c48dd",
+    "section_double_3qCabe",
+    "section_accordion_group_px4YeE",
+    "section_divider_UWdFGz",
+    "section_collection_Wgeg8B",
+    "section_collection_8z6Caz",
+    "section_divider_3fW8d8",
+    "section_text_row_39hUpm"
+  ]
+}

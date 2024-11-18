@@ -1,0 +1,474 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_breadcrumbs": true,
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "17193998173a063b91": {
+      "type": "apps",
+      "blocks": {
+        "schema_breadcrumbs_by_bogdan_page_block_dG6XiE": {
+          "type": "shopify:\/\/apps\/schema-breadcrumbs-by-bogdan\/blocks\/page-block\/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
+          "settings": {
+            "home": "Home",
+            "home_link": "\/",
+            "menu": "main-menu",
+            "separator": "›",
+            "custom_class": "",
+            "bb_show_hide": true,
+            "enable_custom_feature": false,
+            "bb_capitalize": true,
+            "bb_font_size": 13,
+            "bb_padding": 55,
+            "bb_top_padding": 55,
+            "bb_margin": 0,
+            "bb_align": "center",
+            "bb_color": "#c0c0c0",
+            "bb_hover_color": "",
+            "bb_home_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "schema_breadcrumbs_by_bogdan_page_block_dG6XiE"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "section_custom_content_Ufp6Xq": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_ijbHXJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/arbol_compromiso.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "text_QprabU": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 3,
+            "title": "Un futuro sostenible y responsable",
+            "heading_size": 7,
+            "text": "<p>En Cerería Mollá creemos que el éxito no solo se mide por nuestros logros económicos, sino también por el impacto positivo que generamos en la sociedad y el medio ambiente. <br\/><br\/>Nuestro compromiso es trabajar con integridad, responsabilidad y un enfoque sostenible que beneficie a todas nuestras partes interesadas.<br\/><\/p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_ijbHXJ",
+        "text_QprabU"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full-padded",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_divider_JE3Arp": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 50,
+        "padding_bottom_mobile": 50
+      }
+    },
+    "section_columns_LTBBdJ": {
+      "type": "section-columns",
+      "blocks": {
+        "image_cAGE8J": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/compromiso_3.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Gestión responsable de residuos",
+            "heading_size": 1,
+            "text": "<p>Adoptamos una gestión de residuos responsable, liderando prácticas sostenibles en todas las etapas de nuestro proceso, desde el diseño hasta la producción. Implementamos estrategias avanzadas enfocándonos en la reducción y reciclaje de los materiales.<\/p>",
+            "text_size": 1,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_TCN3Mj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cereria-Molla_Catalogo-candle-perfum-head-min.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Optimización de recursos naturales",
+            "heading_size": 3,
+            "text": "<p>La excelencia en cada detalle es nuestra promesa. Utilizamos los mejores materiales, como cera de soja 100% vegetal, mechas de algodón natural y aceites esenciales. Nos comprometemos a ofrecer productos duraderos, seguros y de alta calidad.<\/p>",
+            "text_size": 1,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_P7w6qk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/compromiso_4.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Sostenibilidad",
+            "heading_size": 3,
+            "text": "<p>Creemos en un futuro donde el lujo y la sostenibilidad coexisten. Por eso, empleamos prácticas respetuosas con el medio ambiente en toda nuestra cadena de producción. Nuestros envases reciclables y el uso de ingredientes naturales reflejan nuestro compromiso con el planeta.<\/p>",
+            "text_size": 1,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_YK3ghY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Compromiso_1_bc.png",
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Pasión",
+            "heading_size": 3,
+            "text": "<p>Cada producto que fabricamos está impregnado de nuestra pasión por la artesanía. El amor por nuestro trabajo se refleja en la atención al detalle y en el cuidado con el que confeccionamos cada pieza. Esta pasión convierte nuestros productos en verdaderas obras de arte.<\/p>",
+            "text_size": 1,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_cAGE8J",
+        "image_TCN3Mj",
+        "image_P7w6qk",
+        "image_YK3ghY"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "layout": "grid",
+        "grid": 4,
+        "align_heading": "text-center",
+        "align_text": "text-center",
+        "align_columns": "flex-align-center",
+        "width": "wrapper--full-padded",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "layout_mobile": "slider"
+      }
+    },
+    "section_divider_nBETRQ": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 50,
+        "padding_bottom_mobile": 50
+      }
+    },
+    "section_double_x6U8G6": {
+      "type": "section-double",
+      "blocks": {
+        "heading_WpgVj8": {
+          "type": "heading",
+          "settings": {
+            "title": "Un compromiso con la naturaleza y calidad",
+            "text_size": 5,
+            "padding_bottom": 16
+          }
+        },
+        "text_GbbEP6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>En Cereria Mollá 1899, estamos dedicados a ofrecer productos que reflejan nuestro compromiso con la calidad, la sostenibilidad y el bienestar. <br\/><br\/>Al elegir ingredientes naturales para nuestras fragancias, no solo creamos productois excepcionales, sino que también promovemos un estilo de vida más consciente y respetuoso con el medio ambiente. <br\/><br\/>Cada producto es una promesa de pureza y excelencia, diseñada para iluminar y perfumar tus espacios de la manera más natural y auténtica posible.<br\/><\/p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_WpgVj8",
+        "text_GbbEP6"
+      ],
+      "settings": {
+        "layout": "is-reversed",
+        "height": "seven-fifty-height-hero",
+        "mobile_height": "seven-fifty-height-hero--mobile",
+        "width": "wrapper",
+        "image_1": "shopify:\/\/shop_images\/compromiso_6_bc.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "reverse_blocks": false,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_divider_YJmUff": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 50,
+        "padding_bottom_mobile": 50
+      }
+    },
+    "section_press_logos_cKwEtL": {
+      "type": "section-press-logos",
+      "blocks": {
+        "logo_item_4XfMfV": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/label_15413779.png",
+            "logo_width": 100,
+            "link": "",
+            "description": "<p>Nuestros productos hechos a mano garantizan calidad y atención al detalle en cada creación. <\/p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_ta9bGB": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/label_15413728.png",
+            "logo_width": 100,
+            "link": "",
+            "description": "<p>Fabricamos con materiales y métodos que respetan y preservan el medio ambiente. <\/p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_ga3eXK": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/free_15413940.png",
+            "logo_width": 100,
+            "link": "",
+            "description": "<p>Ofrecemos un cuidado natural y saludable, libres de conservantes sintéticos. <\/p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_c7EJAj": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/eco_15414004.png",
+            "logo_width": 100,
+            "link": "",
+            "description": "<p>Nuestros envases son eco-friendly, diseñados para reducir el impacto ambiental.<\/p>",
+            "heading_size": 3
+          }
+        },
+        "logo_item_6QqenC": {
+          "type": "logo-item",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/free_15413907.png",
+            "logo_width": 100,
+            "link": "",
+            "description": "<p>100% cruelty-free, respetando la vida animal y promoviendo un mundo más compasivo.<\/p>",
+            "heading_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "logo_item_4XfMfV",
+        "logo_item_ta9bGB",
+        "logo_item_ga3eXK",
+        "logo_item_c7EJAj",
+        "logo_item_6QqenC"
+      ],
+      "settings": {
+        "title": "Certificados",
+        "enable_heading_slider": true,
+        "text_style": "font-body",
+        "logo_opacity": 60,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_rich_text_LEHGzg": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_gQxKtB": {
+          "type": "heading",
+          "settings": {
+            "title": "¿Quieres saber más?",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "text_KUKyyM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Síguenos en nuestras redes sociales o suscríbete a nuestra Newsletter para mantenerte al día con nuestras últimas novedades.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_kpgTmx": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Suscríbete",
+            "button_url": "shopify:\/\/pages\/newsletter",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_gQxKtB",
+        "text_KUKyyM",
+        "buttons_kpgTmx"
+      ],
+      "settings": {
+        "enable_accordion": false,
+        "width": "wrapper",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "custom-content-5": {
+      "type": "section-custom-content",
+      "blocks": {
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {
+            "subheading": "Newsletter",
+            "subheading_size": 3,
+            "heading": "Sign up",
+            "heading_size": 7,
+            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
+            "text_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "show_name": false,
+            "button_text": "Join",
+            "show_arrow": false,
+            "terms": true,
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_social_links": false,
+            "bg_color": "",
+            "color": ""
+          }
+        }
+      },
+      "block_order": [
+        "newsletter"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full-padded",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "17193998173a063b91",
+    "section_custom_content_Ufp6Xq",
+    "section_divider_JE3Arp",
+    "section_columns_LTBBdJ",
+    "section_divider_nBETRQ",
+    "section_double_x6U8G6",
+    "section_divider_YJmUff",
+    "section_press_logos_cKwEtL",
+    "section_rich_text_LEHGzg",
+    "custom-content-5"
+  ]
+}

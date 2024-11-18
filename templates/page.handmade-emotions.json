@@ -1,0 +1,594 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_breadcrumbs": true,
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": true,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "17193998173a063b91": {
+      "type": "apps",
+      "blocks": {
+        "schema_breadcrumbs_by_bogdan_page_block_dG6XiE": {
+          "type": "shopify:\/\/apps\/schema-breadcrumbs-by-bogdan\/blocks\/page-block\/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
+          "settings": {
+            "home": "Home",
+            "home_link": "\/",
+            "menu": "main-menu",
+            "separator": "›",
+            "custom_class": "",
+            "bb_show_hide": true,
+            "enable_custom_feature": false,
+            "bb_capitalize": true,
+            "bb_font_size": 13,
+            "bb_padding": 55,
+            "bb_top_padding": 55,
+            "bb_margin": 0,
+            "bb_align": "center",
+            "bb_color": "#c0c0c0",
+            "bb_hover_color": "",
+            "bb_home_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "schema_breadcrumbs_by_bogdan_page_block_dG6XiE"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "section_custom_content_Ufp6Xq": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_QprabU": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 3,
+            "title": "Handmade Emotions",
+            "heading_size": 7,
+            "text": "<p>En Cereria Mollá, creemos que cada vela cuenta una historia y cada aroma evoca una emoción. <br\/><\/p><p>Nuestras velas artesanales, meticulosamente elaboradas a mano, están diseñadas para crear ambientes acogedores y memorables. <\/p><p>Descubre cómo nuestras fragancias naturales pueden transformar cualquier espacio en un refugio de paz y bienestar.<br\/><\/p>",
+            "text_size": 2,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": ""
+          }
+        },
+        "image_ijbHXJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/handmade_1.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "text_QprabU",
+        "image_ijbHXJ"
+      ],
+      "settings": {
+        "height": "seven-fifty-height-hero",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full-padded",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_divider_JE3Arp": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 50,
+        "padding_bottom_mobile": 50
+      }
+    },
+    "section_divider_nBETRQ": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 50,
+        "padding_bottom_mobile": 50
+      }
+    },
+    "section_double_x6U8G6": {
+      "type": "section-double",
+      "blocks": {
+        "heading_WpgVj8": {
+          "type": "heading",
+          "settings": {
+            "title": "Ingredientes de origen vegetal",
+            "text_size": 5,
+            "padding_bottom": 16
+          }
+        },
+        "heading_Hcn6iA": {
+          "type": "heading",
+          "settings": {
+            "title": "Pureza y autenticidad en cada aroma",
+            "text_size": 2,
+            "padding_bottom": 16
+          }
+        },
+        "text_GbbEP6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Utilizamos ingredientes sostenibles de la más alta calidad en nuestras fragancias, garantizando una experiencia sensorial excepcional. <br\/><br\/>Las ceras vegetales de soja, las mechas de algodón puro y las fragancias compuestas por aceites esenciales y extractos naturales aseguran que cada vela no solo ilumine, sino que también aporte beneficios terapéuticos.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_WpgVj8",
+        "heading_Hcn6iA",
+        "text_GbbEP6"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "seven-fifty-height-hero",
+        "mobile_height": "seven-fifty-height-hero--mobile",
+        "width": "wrapper",
+        "image_1": "shopify:\/\/shop_images\/handmade_2.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "reverse_blocks": false,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_divider_YJmUff": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 50,
+        "padding_bottom_mobile": 50
+      }
+    },
+    "section_highlights_3py6fi": {
+      "type": "section-highlights",
+      "blocks": {
+        "highlight_RgGnhc": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Bergamotto Di Calabria",
+            "url": "shopify:\/\/pages\/bergamotto-di-calabria-la-esencia-de-la-brisa-medirerranea",
+            "image": "shopify:\/\/shop_images\/handmade_bergamotto_ok.jpg",
+            "color": "",
+            "bg_color": "#f0f0f0",
+            "border_color": ""
+          }
+        },
+        "highlight_iAWKwj": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Provence Lavender",
+            "url": "shopify:\/\/pages\/provence-lavender-la-esencia-del-mediterraneo",
+            "image": "shopify:\/\/shop_images\/handmade_lavender_ok.jpg",
+            "color": "",
+            "bg_color": "#f0f0f0",
+            "border_color": ""
+          }
+        },
+        "highlight_kVFLmY": {
+          "type": "highlight",
+          "settings": {
+            "heading": "French Linen",
+            "url": "shopify:\/\/pages\/french-linen-la-nostalgia-de-la-frescura-floral",
+            "image": "shopify:\/\/shop_images\/handmade_french_ok.jpg",
+            "color": "",
+            "bg_color": "#f0f0f0",
+            "border_color": ""
+          }
+        },
+        "highlight_9Qtmtw": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Raspberry & Black Vanilla",
+            "url": "shopify:\/\/pages\/raspberry-black-vanilla-un-toque-dulce-y-especial",
+            "image": "shopify:\/\/shop_images\/handmade_raspberry_ok.jpg",
+            "color": "",
+            "bg_color": "#f0f0f0",
+            "border_color": ""
+          }
+        },
+        "highlight_VP9AaX": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Tea & Lemongrass",
+            "url": "shopify:\/\/pages\/tea-lemongrass-un-refrescante-aroma-de-verano",
+            "image": "shopify:\/\/shop_images\/handmade_tea_ok.jpg",
+            "color": "",
+            "bg_color": "#f0f0f0",
+            "border_color": ""
+          }
+        },
+        "highlight_rc6Lmj": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Amber & Sandalwood",
+            "url": "shopify:\/\/pages\/amber-sandalwood-egipto-en-cada-gota",
+            "image": "shopify:\/\/shop_images\/handmade_amber_ok.jpg",
+            "color": "",
+            "bg_color": "#f0f0f0",
+            "border_color": ""
+          }
+        },
+        "highlight_TMYN4z": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Basil & Mandarin",
+            "url": "shopify:\/\/pages\/basil-mandarin-energia-y-vitalidad-en-cada-gota",
+            "image": "shopify:\/\/shop_images\/handmade_basil_ok2_f4a3bbb5-c38f-4ad3-af1e-ce1f0d7df912.jpg",
+            "color": "",
+            "bg_color": "#f0f0f0",
+            "border_color": ""
+          }
+        },
+        "highlight_Y8NVAw": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Tuberose & Jasmine",
+            "url": "shopify:\/\/pages\/tuberose-jasmine-la-esencia-floral-de-andalucia",
+            "image": "shopify:\/\/shop_images\/handmade_jasmine_ok.jpg",
+            "color": "",
+            "bg_color": "#f0f0f0",
+            "border_color": ""
+          }
+        },
+        "highlight_k3F4M6": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Velvet Wood",
+            "url": "shopify:\/\/pages\/velvet-wood-calidez-y-confort-en-tu-hogar",
+            "image": "shopify:\/\/shop_images\/handmade_velvet_ok.jpg",
+            "color": "",
+            "bg_color": "#f0f0f0",
+            "border_color": ""
+          }
+        },
+        "highlight_JM9wTP": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Mediterranean Blue",
+            "url": "shopify:\/\/pages\/mediterranean-blue-un-viaje-eterno-al-mediterraneo",
+            "image": "shopify:\/\/shop_images\/handmade_mediterranean_ok.jpg",
+            "color": "",
+            "bg_color": "#f0f0f0",
+            "border_color": ""
+          }
+        },
+        "highlight_ynhhXH": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Verbena Di Sicilia",
+            "url": "shopify:\/\/pages\/verbena-di-sicilia-el-encanto-del-verano-siciliano",
+            "image": "shopify:\/\/shop_images\/handmade_verbena_ok.jpg",
+            "color": "",
+            "bg_color": "#f0f0f0",
+            "border_color": ""
+          }
+        },
+        "highlight_6pphKV": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Black Orchid & Lily",
+            "url": "shopify:\/\/pages\/black-orchid-lily-flores-y-frescura-primaveral",
+            "image": "shopify:\/\/shop_images\/handmade_orchid_ok.jpg",
+            "color": "",
+            "bg_color": "#f0f0f0",
+            "border_color": ""
+          }
+        },
+        "highlight_9NBhre": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Bulgarian Rose & Oud",
+            "url": "shopify:\/\/pages\/bulgarian-rose-oud-elegancia-envolvente",
+            "image": "shopify:\/\/shop_images\/handmade_bulgarian_ok.jpg",
+            "color": "",
+            "bg_color": "#f0f0f0",
+            "border_color": ""
+          }
+        },
+        "highlight_YP6FQX": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Moroccan Cedar",
+            "url": "shopify:\/\/pages\/moroccan-cedar-un-viaje-aromatico-al-desierto",
+            "image": "shopify:\/\/shop_images\/handmade_moroccan_ok.jpg",
+            "color": "",
+            "bg_color": "#f0f0f0",
+            "border_color": ""
+          }
+        },
+        "highlight_8nnbNe": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Grapefruit & Bay",
+            "url": "shopify:\/\/pages\/grapefruit-bay-explosion-citrica-en-tu-hogar",
+            "image": "shopify:\/\/shop_images\/handmade_grapefruit_ok.jpg",
+            "color": "",
+            "bg_color": "#f0f0f0",
+            "border_color": ""
+          }
+        },
+        "highlight_f9JV8M": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Fig & Citrus",
+            "url": "shopify:\/\/pages\/fig-citrus-frescura-natural",
+            "image": "shopify:\/\/shop_images\/handmade_fig_ok.jpg",
+            "color": "",
+            "bg_color": "#f0f0f0",
+            "border_color": ""
+          }
+        },
+        "highlight_nYGQ9U": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Santal & Tonka",
+            "url": "shopify:\/\/pages\/santal-tonka-un-viaje-mistico-de-elegancia-y-calidez",
+            "image": "shopify:\/\/shop_images\/handmade_santal_ok.jpg",
+            "color": "",
+            "bg_color": "#f0f0f0",
+            "border_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight_RgGnhc",
+        "highlight_iAWKwj",
+        "highlight_kVFLmY",
+        "highlight_9Qtmtw",
+        "highlight_VP9AaX",
+        "highlight_rc6Lmj",
+        "highlight_TMYN4z",
+        "highlight_Y8NVAw",
+        "highlight_k3F4M6",
+        "highlight_JM9wTP",
+        "highlight_ynhhXH",
+        "highlight_6pphKV",
+        "highlight_9NBhre",
+        "highlight_YP6FQX",
+        "highlight_8nnbNe",
+        "highlight_f9JV8M",
+        "highlight_nYGQ9U"
+      ],
+      "settings": {
+        "style": "rectangle",
+        "grid": 6,
+        "width": "wrapper--full-padded",
+        "heading": "Gran catálogo de aromas",
+        "heading_position": "text-center",
+        "heading_size": 5,
+        "text_size": 3,
+        "color": "",
+        "bg_color": "#f0f0f0",
+        "layout_mobile": "2",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_rich_text_LEHGzg": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_gQxKtB": {
+          "type": "heading",
+          "settings": {
+            "title": "¿Quieres saber más?",
+            "text_size": 3,
+            "text_tag": "h2",
+            "padding_bottom": 16
+          }
+        },
+        "text_KUKyyM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Síguenos en nuestras redes sociales o suscríbete a nuestra Newsletter para mantenerte al día con nuestras últimas novedades.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_kpgTmx": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Suscríbete",
+            "button_url": "shopify:\/\/pages\/newsletter",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_gQxKtB",
+        "text_KUKyyM",
+        "buttons_kpgTmx"
+      ],
+      "settings": {
+        "enable_accordion": false,
+        "width": "wrapper",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "custom-content-5": {
+      "type": "section-custom-content",
+      "blocks": {
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {
+            "subheading": "Newsletter",
+            "subheading_size": 3,
+            "heading": "Sign up",
+            "heading_size": 7,
+            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
+            "text_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "show_name": false,
+            "button_text": "Join",
+            "show_arrow": false,
+            "terms": true,
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_social_links": false,
+            "bg_color": "",
+            "color": ""
+          }
+        }
+      },
+      "block_order": [
+        "newsletter"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full-padded",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_rich_text_RqL9zA": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_W7Aaxx": {
+          "type": "heading",
+          "settings": {
+            "title": "Rich text",
+            "text_size": 8,
+            "text_tag": "h2",
+            "padding_bottom": 16
+          }
+        },
+        "subheading_FRMxyD": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Introducing",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "text_PTDXNe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_dUkJBP": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_W7Aaxx",
+        "subheading_FRMxyD",
+        "text_PTDXNe",
+        "buttons_dUkJBP"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_accordion": false,
+        "width": "wrapper",
+        "align_text": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "main",
+    "17193998173a063b91",
+    "section_custom_content_Ufp6Xq",
+    "section_divider_JE3Arp",
+    "section_divider_nBETRQ",
+    "section_double_x6U8G6",
+    "section_divider_YJmUff",
+    "section_highlights_3py6fi",
+    "section_rich_text_LEHGzg",
+    "custom-content-5",
+    "section_rich_text_RqL9zA"
+  ]
+}

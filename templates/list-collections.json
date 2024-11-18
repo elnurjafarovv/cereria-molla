@@ -1,0 +1,20 @@
+{
+  "sections": {
+    "main": {
+      "type": "list-collections",
+      "settings": {
+        "display_type": "all",
+        "title": "Collections",
+        "text_tag": "h1",
+        "grid": 4,
+        "rows": 1,
+        "layout_mobile": "slider",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

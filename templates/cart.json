@@ -1,0 +1,127 @@
+{
+  "sections": {
+    "main": {
+      "type": "cart",
+      "blocks": {
+        "free-shipping": {
+          "type": "free-shipping",
+          "disabled": true,
+          "settings": {
+            "message": "You are ||amount|| away from free shipping.",
+            "free_shipping_gradient": ""
+          }
+        },
+        "order-note": {
+          "type": "order-note",
+          "settings": {}
+        },
+        "checkout-buttons": {
+          "type": "checkout-buttons",
+          "settings": {
+            "enable_additional_buttons": false
+          }
+        },
+        "gift-note": {
+          "type": "gift-note",
+          "disabled": true,
+          "settings": {}
+        },
+        "cart-message": {
+          "type": "cart-message",
+          "disabled": true,
+          "settings": {
+            "cart_custom_message_text": "<p>Use coupon code <strong>WELCOME10<\/strong> for 10% off your first order.<\/p>",
+            "cart_custom_message_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "free-shipping",
+        "order-note",
+        "checkout-buttons",
+        "gift-note",
+        "cart-message"
+      ],
+      "settings": {
+        "padding_top": 64,
+        "padding_bottom": 14
+      }
+    },
+    "special_section_collection_w3XRCh": {
+      "type": "special-section-collection",
+      "settings": {
+        "heading": "SELECCIONE SUS DOS MUESTRAS",
+        "description": "",
+        "num_add_cart": 2,
+        "layout": "inline",
+        "featured_collection": "muestras",
+        "layout_desktop": "slider",
+        "grid": 6,
+        "rows": 4,
+        "width": "wrapper",
+        "layout_mobile": "slider",
+        "bg_color": "",
+        "color": "#1d1d1d",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "section_grid_products_7Afgwn": {
+      "type": "section-grid-products",
+      "blocks": {
+        "products_aBCyxw": {
+          "type": "products",
+          "disabled": true,
+          "settings": {
+            "product_list": [
+              "caja-estandard-free",
+              "caja-regalo-5"
+            ],
+            "layout_mobile": "2"
+          }
+        }
+      },
+      "block_order": [
+        "products_aBCyxw"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wrapper--full-padded",
+        "reverse_blocks": false,
+        "bg_color": "",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "section_collection_zaGXUV": {
+      "type": "section-collection",
+      "settings": {
+        "heading": "TAMBIÉN PODRÍA GUSTARTE",
+        "description": "",
+        "layout": "center",
+        "link_text": "",
+        "link_url": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "featured_collection": "amaderadas",
+        "layout_desktop": "slider",
+        "grid": 5,
+        "rows": 1,
+        "width": "wrapper--full-padded",
+        "layout_mobile": "slider",
+        "bg_color": "",
+        "color": "#1d1d1d",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    }
+  },
+  "order": [
+    "main",
+    "special_section_collection_w3XRCh",
+    "section_grid_products_7Afgwn",
+    "section_collection_zaGXUV"
+  ]
+}

@@ -1,0 +1,670 @@
+{
+  "sections": {
+    "1730906349dc49673c": {
+      "type": "apps",
+      "blocks": {
+        "schema_breadcrumbs_by_bogdan_page_block_kmBf6g": {
+          "type": "shopify:\/\/apps\/schema-breadcrumbs-by-bogdan\/blocks\/page-block\/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
+          "settings": {
+            "home": "Home",
+            "home_link": "\/",
+            "menu": "main-menu",
+            "separator": "›",
+            "custom_class": "",
+            "bb_show_hide": true,
+            "enable_custom_feature": false,
+            "bb_capitalize": true,
+            "bb_font_size": 13,
+            "bb_padding": 55,
+            "bb_top_padding": 55,
+            "bb_margin": 0,
+            "bb_align": "center",
+            "bb_color": "#c0c0c0",
+            "bb_hover_color": "",
+            "bb_home_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "schema_breadcrumbs_by_bogdan_page_block_kmBf6g"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_breadcrumbs": false,
+        "subheading": "",
+        "subheading_size": 3,
+        "show_title": false,
+        "heading_size": 8,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-center",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 30,
+        "padding_bottom": 50
+      }
+    },
+    "section_hero_9NWkCP": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_AFqnKe": {
+          "type": "heading",
+          "settings": {
+            "title": "BLACK FRIDAY",
+            "heading_size": 9,
+            "text_tag": "h2"
+          }
+        },
+        "text_fYQCXW": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "content": "",
+            "text_size": 5,
+            "text_style": "font-body"
+          }
+        },
+        "button_ayTbMC": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_AFqnKe",
+        "text_fYQCXW",
+        "button_ayTbMC"
+      ],
+      "settings": {
+        "height": "screen-height-one-third",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/banner_fnegro_lbf.jpg",
+        "link": "",
+        "mobile_height": "screen-height-one-third--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "section_rich_text_zD8Pyj": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_x3e4GR": {
+          "type": "heading",
+          "settings": {
+            "title": "Black Friday, regalos exclusivos por tiempo limitado",
+            "text_size": 5,
+            "text_tag": "h2",
+            "padding_bottom": 16
+          }
+        },
+        "text_8w9Wm3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Por cada compra que realices, te llevas un regalo que transformará tus espacios y creará una atmósfera única. Desde detalles aromáticos hasta sets completos, cada obsequio está pensado para que disfrutes de la mejor experiencia.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_x3e4GR",
+        "text_8w9Wm3"
+      ],
+      "settings": {
+        "enable_accordion": false,
+        "width": "wrapper",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 80,
+        "padding_bottom": 30
+      }
+    },
+    "section_columns_PTpcQX": {
+      "type": "section-columns",
+      "blocks": {
+        "image_nmnd33": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lp_bf_70gr_bn_1.jpg",
+            "image_aspect_ratio": 1,
+            "overlay_opacity": 0,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Regalo por compras superiores a 70€",
+            "heading_size": 1,
+            "text": "<p>Llévate de regalo una <strong>vela aromática de 70gr<\/strong> del aroma que más te guste y añade calidez y encanto a cualquier rincón de tu hogar.<\/p>",
+            "text_size": 1,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "btn--small",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_7DK7C7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lp_bf_230gr_bn_1.jpg",
+            "image_aspect_ratio": 1,
+            "overlay_opacity": 0,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Regalo por compras superiores a 90€",
+            "heading_size": 1,
+            "text": "<p>Llévate de regalo una <strong>vela aromática de 230gr<\/strong> del aroma que más te guste y disfruta de una fragancia envolvente que hará de tu espacio un lugar especial.<\/p>",
+            "text_size": 1,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "btn--small",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "image_kdH6bt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/amenities_bn_lbf.jpg",
+            "image_aspect_ratio": 1,
+            "overlay_opacity": 0,
+            "mobile_image_aspect_ratio": 1,
+            "image_shape": "normal",
+            "title": "Regalo por compras superiores a 130€",
+            "heading_size": 1,
+            "text": "<p>Llévate de regalo una <strong>vela aromática de 230gr<\/strong> <strong>+ un set exclusivo de amenities<\/strong> y disfruta de una experiencia completa transformando tu hogar en un verdadero santuario.<\/p>",
+            "text_size": 1,
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "btn--small",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "image_nmnd33",
+        "image_7DK7C7",
+        "image_kdH6bt"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "layout": "grid",
+        "grid": 3,
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "align_columns": "flex-align-top",
+        "width": "wrapper--full-padded",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "layout_mobile": "2"
+      }
+    },
+    "section_divider_Ktk7j6": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 40,
+        "padding_bottom": 50,
+        "padding_top_mobile": 50,
+        "padding_bottom_mobile": 50
+      }
+    },
+    "section_newsletter_8WzHcH": {
+      "type": "section-newsletter",
+      "blocks": {
+        "image_wdWDjU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lp_bf_newsletter_1.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "bg_color": "",
+            "color": "#ffffff",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "newsletter_xgfYTn": {
+          "type": "newsletter",
+          "settings": {
+            "subheading": "Newsletter",
+            "text_tag": "p",
+            "subheading_size": 3,
+            "heading": "No te pierdas nuestras ofertas exclusivas",
+            "heading_size": 7,
+            "text": "<p>Regístrate en nuestra Newsletter y sé el primero en descubrir promociones, novedades y regalos únicos.<\/p>",
+            "text_size": 3,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": "#ffffff",
+            "show_name": true,
+            "button_text": "Join",
+            "show_arrow": false,
+            "terms": true,
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_social_links": false
+          }
+        }
+      },
+      "block_order": [
+        "image_wdWDjU",
+        "newsletter_xgfYTn"
+      ],
+      "settings": {
+        "height": "five-fifty-height-hero",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "bg_color": "#212121",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_divider_8t4Eze": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "border_color": "",
+        "bg_color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 50,
+        "padding_bottom_mobile": 50
+      }
+    },
+    "section_tab_collections_UNk6gn": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "collection_6TY7XT": {
+          "type": "collection",
+          "settings": {
+            "title": "NOVEDADES",
+            "featured_collection": "bano-cuerpo",
+            "show_image": true,
+            "align_with_product_images": false,
+            "image": "shopify:\/\/shop_images\/crema-perfumada-basil-mandarin-ambiente.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "color": "#ffffff",
+            "link_text": "VER TODOS",
+            "link": "shopify:\/\/collections\/bano-cuerpo",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        },
+        "collection_GN9Wrf": {
+          "type": "collection",
+          "settings": {
+            "title": "BEST SELLERS",
+            "featured_collection": "best-sellers",
+            "show_image": true,
+            "align_with_product_images": false,
+            "image": "shopify:\/\/shop_images\/vela-amber-sandalwood-xl-ambiente.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "color": "#ffffff",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        },
+        "collection_68jHab": {
+          "type": "collection",
+          "settings": {
+            "title": "REGALOS",
+            "featured_collection": "regalos",
+            "show_image": true,
+            "align_with_product_images": false,
+            "image": "shopify:\/\/shop_images\/CERRERIA-MOLLA---026.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "color": "#ffffff",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_6TY7XT",
+        "collection_GN9Wrf",
+        "collection_68jHab"
+      ],
+      "settings": {
+        "title": "",
+        "text": "<h5>EXPLORA CERERIA MOLLÁ 1899<\/h5>",
+        "layout": "stacked",
+        "show_product_count": false,
+        "layout_desktop": "slider",
+        "layout_mobile": "2",
+        "product_limit": 5,
+        "grid": 6,
+        "rows": 3,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "section_rich_text_8PAkRb": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_xAJE33": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Introducing",
+            "text_size": 3,
+            "padding_bottom": 16
+          }
+        },
+        "heading_9TyYfz": {
+          "type": "heading",
+          "settings": {
+            "title": "¿Quieres saber más?",
+            "text_size": 3,
+            "text_tag": "h2",
+            "padding_bottom": 16
+          }
+        },
+        "text_DYWEce": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Síguenos en nuestras redes sociales o suscríbete a nuestra Newsletter para mantenerte al día con nuestras últimas novedades<\/p>",
+            "text_size": 4,
+            "text_style": "font-body",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_E8F6pY": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "SUSCRÍBETE",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_xAJE33",
+        "heading_9TyYfz",
+        "text_DYWEce",
+        "buttons_E8F6pY"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_accordion": false,
+        "width": "wrapper",
+        "align_text": "text-center",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "section_countdown_timer_RN9P9a": {
+      "type": "section-countdown-timer",
+      "blocks": {
+        "subheading_Q3rV9x": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Countdown is on",
+            "text_size": 3
+          }
+        },
+        "heading_DfhbxV": {
+          "type": "heading",
+          "settings": {
+            "title": "Shop Before It Ends",
+            "text_size": 8
+          }
+        },
+        "buttons_AtdyqE": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Shop now",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Q3rV9x",
+        "heading_DfhbxV",
+        "buttons_AtdyqE"
+      ],
+      "disabled": true,
+      "settings": {
+        "end_date": "2024-12-31",
+        "end_time": "11:59",
+        "period": "am",
+        "end_message": "<p>Offer has expired<\/p>",
+        "hide_on_complete": true,
+        "text_size": 12,
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "bg_gradient": "",
+        "color": "",
+        "digits_gradient": "",
+        "height": "two-hundred-height-hero",
+        "mobile_height": "four-fifty-height-hero--mobile",
+        "width": "wrapper",
+        "text_align": "text-center",
+        "text_size_mobile": 6,
+        "text_align_mobile": "text-left--mobile"
+      }
+    },
+    "section_countdown_timer_Kncf6b": {
+      "type": "section-countdown-timer",
+      "blocks": {
+        "subheading_qgbD8h": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Countdown is on",
+            "text_size": 3
+          }
+        },
+        "heading_bQabQC": {
+          "type": "heading",
+          "settings": {
+            "title": "BLACK FRIDAY",
+            "text_size": 8
+          }
+        },
+        "buttons_BfYczG": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Shop now",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_qgbD8h",
+        "heading_bQabQC",
+        "buttons_BfYczG"
+      ],
+      "disabled": true,
+      "settings": {
+        "end_date": "2024-11-02",
+        "end_time": "11:59",
+        "period": "am",
+        "end_message": "<p>Offer has expired<\/p>",
+        "hide_on_complete": true,
+        "text_size": 15,
+        "image": "shopify:\/\/shop_images\/banner_home_bf_1.jpg",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "bg_gradient": "",
+        "color": "#ffffff",
+        "digits_gradient": "",
+        "height": "four-fifty-height-hero",
+        "mobile_height": "four-fifty-height-hero--mobile",
+        "width": "wrapper",
+        "text_align": "text-center",
+        "text_size_mobile": 6,
+        "text_align_mobile": "text-center--mobile"
+      }
+    },
+    "section_list_collections_NVYfzT": {
+      "type": "section-list-collections",
+      "blocks": {
+        "collection_V3BYYq": {
+          "type": "collection",
+          "settings": {
+            "title": "Velas aromáticas",
+            "featured_collection": "velas",
+            "show_image": false,
+            "atributes_collection": "",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "color": "#ffffff",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        },
+        "collection_rGn7Et": {
+          "type": "collection",
+          "settings": {
+            "title": "Mikados",
+            "featured_collection": "mikados",
+            "show_image": false,
+            "atributes_collection": "",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "description": "",
+            "color": "#ffffff",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        },
+        "collection_w7BX9c": {
+          "type": "collection",
+          "settings": {
+            "title": "Baño & Cuerpo",
+            "featured_collection": "bano-cuerpo",
+            "show_image": false,
+            "atributes_collection": "",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "description": "",
+            "color": "#fff",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_V3BYYq",
+        "collection_rGn7Et",
+        "collection_w7BX9c"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "layout": "stacked",
+        "show_product_count": false,
+        "layout_desktop": "slider",
+        "layout_mobile": "2",
+        "product_limit": 6,
+        "grid": 4,
+        "rows": 3,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    }
+  },
+  "order": [
+    "1730906349dc49673c",
+    "main",
+    "section_hero_9NWkCP",
+    "section_rich_text_zD8Pyj",
+    "section_columns_PTpcQX",
+    "section_divider_Ktk7j6",
+    "section_newsletter_8WzHcH",
+    "section_divider_8t4Eze",
+    "section_tab_collections_UNk6gn",
+    "section_rich_text_8PAkRb",
+    "section_countdown_timer_RN9P9a",
+    "section_countdown_timer_Kncf6b",
+    "section_list_collections_NVYfzT"
+  ]
+}

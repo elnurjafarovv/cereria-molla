@@ -1,0 +1,87 @@
+{
+  "type": "custom.pre_footer",
+  "name": "Pre-footer",
+  "sections": {
+    "section_custom_code_YhR8r3": {
+      "type": "section-custom-code",
+      "settings": {
+        "code": "<!-- Begin eTrusted widget tag -->\n\n<etrusted-widget data-etrusted-widget-id=\"wdg-9f4555f0-e239-4006-8533-a6a1a6d63d50\"><\/etrusted-widget>\n\n<!-- End eTrusted widget tag -->",
+        "width": "wrapper",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_text_row_R73Fcj": {
+      "type": "section-text-row",
+      "blocks": {
+        "icon_xjmjgJ": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-fast-shipment",
+            "icon_size": 20,
+            "icon_color": "#1d1d1d",
+            "title": "Envío gratis",
+            "text_tag": "p",
+            "heading_size": 4,
+            "text": "<p>Disfruta de envío gratuito según el valor del pedido y la ubicación.<\/p>",
+            "text_size": 3
+          }
+        },
+        "icon_NNRDRa": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-recycle",
+            "icon_size": 20,
+            "icon_color": "#1d1d1d",
+            "title": "Pago seguro",
+            "text_tag": "h2",
+            "heading_size": 4,
+            "text": "<p>Nuestro pago es rápido y fácil de usar.<\/p>",
+            "text_size": 3
+          }
+        },
+        "icon_WVW4Kn": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-chat",
+            "icon_size": 20,
+            "icon_color": "#1d1d1d",
+            "title": "Contacta con nosotros",
+            "text_tag": "h2",
+            "heading_size": 4,
+            "text": "<p>¿Tienes preguntas? Ponte en contacto con nosotros.<\/p>",
+            "text_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "icon_xjmjgJ",
+        "icon_NNRDRa",
+        "icon_WVW4Kn"
+      ],
+      "custom_css": [],
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "layout": "grid",
+        "grid": 3,
+        "align_heading": "text-center",
+        "align_text": "text-center",
+        "icon_alignment": "icon--top",
+        "align_columns": "flex-align-center",
+        "width": "wrapper",
+        "bg_color": "#fafafa",
+        "color": "#1d1d1d",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "layout_mobile": "slider"
+      }
+    }
+  },
+  "order": [
+    "section_custom_code_YhR8r3",
+    "section_text_row_R73Fcj"
+  ]
+}
